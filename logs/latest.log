@@ -1,0 +1,908 @@
+[25Feb2025 21:28:27.240] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, MrWhale, --version, 1.20.1, --gameDir, C:/Users/Roli/AppData/Roaming/ExtremeLauncher/instances/dathost-localdev/minecraft, --assetsDir, C:/Users/Roli/AppData/Roaming/ExtremeLauncher/assets, --assetIndex, 5, --uuid, 4ac20aacc8743aa0b4662b86c79a7318, --accessToken, ????????, --userType, offline, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 1920, --height, 1080]
+[25Feb2025 21:28:27.243] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[25Feb2025 21:28:27.306] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\fml.toml is not correct. Correcting
+[25Feb2025 21:28:27.307] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from true to null
+[25Feb2025 21:28:27.565] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[25Feb2025 21:28:27.621] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[25Feb2025 21:28:27.791] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[25Feb2025 21:28:27.865] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Roli/AppData/Roaming/ExtremeLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
+[25Feb2025 21:28:27.893] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 6600 GL version 4.6.0 Core Profile Context 24.10.1.241007, ATI Technologies Inc.
+[25Feb2025 21:28:28.231] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[25Feb2025 21:28:28.235] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[25Feb2025 21:28:28.238] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[25Feb2025 21:28:28.242] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[25Feb2025 21:28:28.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[25Feb2025 21:28:29.620] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Feb2025 21:28:29.710] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.mmorpg.MixinConnector]
+[25Feb2025 21:28:29.711] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.MixinConnector]
+[25Feb2025 21:28:29.712] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.orbs_of_crafting.MixinConnector]
+[25Feb2025 21:28:29.713] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft, --assetsDir, C:\Users\Roli\AppData\Roaming\ExtremeLauncher\assets, --uuid, 4ac20aacc8743aa0b4662b86c79a7318, --username, MrWhale, --assetIndex, 5, --accessToken, ????????, --userType, offline, --versionType, release, --width, 1920, --height, 1080]
+[25Feb2025 21:28:29.764] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.2+mc1.20.1: 87 options available, 0 override(s) found
+[25Feb2025 21:28:29.764] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[25Feb2025 21:28:29.772] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[25Feb2025 21:28:29.818] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Feb2025 21:28:29.824] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 76 options available, 0 override(s) found
+[25Feb2025 21:28:29.825] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[25Feb2025 21:28:30.161] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon RX 6600, version=DriverVersion=32.0.12019.1028]
+[25Feb2025 21:28:30.630] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/programs/ExtendedShader (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.programs.ExtendedShader)
+[25Feb2025 21:28:30.630] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.programs.ExtendedShader was not found mixins.epicfight.json:IrisMixinExtendedShader
+[25Feb2025 21:28:30.631] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[25Feb2025 21:28:30.631] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found mixins.epicfight.json:IrisMixinPipelineManager
+[25Feb2025 21:28:30.633] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/SkinUtil (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.SkinUtil)
+[25Feb2025 21:28:30.633] [main/WARN] [mixin/]: @Mixin target dev.tr7zw.skinlayers.SkinUtil was not found mixins.epicfight.json:SkinLayer3DMixinSkinUtil
+[25Feb2025 21:28:30.633] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/versionless/render/CustomModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.versionless.render.CustomModelPart)
+[25Feb2025 21:28:30.633] [main/WARN] [mixin/]: @Mixin target dev.tr7zw.skinlayers.versionless.render.CustomModelPart was not found mixins.epicfight.json:SkinLayer3DMixinCustomModelPart
+[25Feb2025 21:28:30.634] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/versionless/render/CustomizableCube (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.versionless.render.CustomizableCube)
+[25Feb2025 21:28:30.634] [main/WARN] [mixin/]: @Mixin target dev.tr7zw.skinlayers.versionless.render.CustomizableCube was not found mixins.epicfight.json:SkinLayer3DMixinCustomizableCubeWrapper$SkinLayer3DMixinCustomModelCube
+[25Feb2025 21:28:30.635] [main/WARN] [mixin/]: Error loading class: de/teamlapen/vampirism/client/renderer/entity/layers/VampirePlayerHeadLayer (java.lang.ClassNotFoundException: de.teamlapen.vampirism.client.renderer.entity.layers.VampirePlayerHeadLayer)
+[25Feb2025 21:28:30.635] [main/WARN] [mixin/]: @Mixin target de.teamlapen.vampirism.client.renderer.entity.layers.VampirePlayerHeadLayer was not found mixins.epicfight.json:VampirismMixinVampirePlayerHeadLayer
+[25Feb2025 21:28:30.635] [main/WARN] [mixin/]: Error loading class: de/teamlapen/werewolves/client/render/layer/HumanWerewolfLayer (java.lang.ClassNotFoundException: de.teamlapen.werewolves.client.render.layer.HumanWerewolfLayer)
+[25Feb2025 21:28:30.635] [main/WARN] [mixin/]: @Mixin target de.teamlapen.werewolves.client.render.layer.HumanWerewolfLayer was not found mixins.epicfight.json:WerewolvesMixinHumanWerewolfLayer
+[25Feb2025 21:28:30.925] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[25Feb2025 21:28:31.506] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[25Feb2025 21:28:31.725] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (6.409 s after launch)
+[25Feb2025 21:28:31.777] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Feb2025 21:28:31.777] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Feb2025 21:28:32.475] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 748 milliseconds
+[25Feb2025 21:28:32.888] [pool-4-thread-1/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[25Feb2025 21:28:32.888] [pool-4-thread-1/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[25Feb2025 21:28:33.513] [pool-4-thread-1/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[25Feb2025 21:28:33.513] [pool-4-thread-1/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[25Feb2025 21:28:33.513] [pool-4-thread-1/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[25Feb2025 21:28:33.513] [pool-4-thread-1/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[25Feb2025 21:28:34.480] [main/WARN] [net.minecraft.client.main.Main/]: Unrecognized user type: offline
+[25Feb2025 21:28:34.648] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Roli/AppData/Roaming/ExtremeLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23210!/assets/.mcassetsroot' uses unexpected schema
+[25Feb2025 21:28:34.648] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Roli/AppData/Roaming/ExtremeLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23210!/data/.mcassetsroot' uses unexpected schema
+[25Feb2025 21:28:34.661] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Feb2025 21:28:34.664] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: MrWhale
+[25Feb2025 21:28:34.719] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[25Feb2025 21:28:34.771] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[25Feb2025 21:28:34.828] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: ATI Technologies Inc.
+[25Feb2025 21:28:34.829] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: AMD Radeon RX 6600
+[25Feb2025 21:28:34.829] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 Core Profile Context 24.10.1.241007
+[25Feb2025 21:28:35.096] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
+[25Feb2025 21:28:35.105] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
+[25Feb2025 21:28:35.106] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
+[25Feb2025 21:28:35.141] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[25Feb2025 21:28:35.141] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[25Feb2025 21:28:35.258] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[25Feb2025 21:28:35.297] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[25Feb2025 21:28:35.298] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Feb2025 21:28:35.303] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\moonlight-client.toml is not correct. Correcting
+[25Feb2025 21:28:35.304] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:35.304] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.merge_dynamic_packs was corrected from null to its default, true. 
+[25Feb2025 21:28:35.305] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.lazy_map_upload was corrected from null to its default, true. 
+[25Feb2025 21:28:35.305] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maps_mipmap was corrected from null to its default, 3. 
+[25Feb2025 21:28:35.305] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.consistent_entity_renderer_shading was corrected from null to its default, NO_GUI. 
+[25Feb2025 21:28:36.854] [Render thread/INFO] [Moonlight/]: Initialized block sets in 5ms
+[25Feb2025 21:28:37.244] [Render thread/INFO] [ModernFix/]: Instantiating Mojang DFU
+[25Feb2025 21:28:37.584] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 82 milliseconds
+[25Feb2025 21:28:37.655] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[25Feb2025 21:28:37.680] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.681] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.681] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.681] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.681] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.681] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.681] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.681] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:37.682] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[25Feb2025 21:28:38.421] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
+[25Feb2025 21:28:38.421] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, Moonlight Mods Dynamic Assets
+[25Feb2025 21:28:38.432] [Render thread/INFO] [Moonlight/]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 1 ms
+[25Feb2025 21:28:38.457] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\curios-client.toml is not correct. Correcting
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.renderCurios was corrected from null to its default, true. 
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableButton was corrected from null to its default, true. 
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.buttonXOffset was corrected from null to its default, 0. 
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.buttonYOffset was corrected from null to its default, 0. 
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.creativeButtonXOffset was corrected from null to its default, 0. 
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.creativeButtonYOffset was corrected from null to its default, 0. 
+[25Feb2025 21:28:38.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.buttonCorner was corrected from null to its default, TOP_LEFT. 
+[25Feb2025 21:28:38.463] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\mine_and_slash_neat_gui-client.toml is not correct. Correcting
+[25Feb2025 21:28:38.464] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.464] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Max Distance was corrected from null to its default, 12. 
+[25Feb2025 21:28:38.464] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Render with Interface Disabled (F1) was corrected from null to its default, false. 
+[25Feb2025 21:28:38.464] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Height Above Mob was corrected from null to its default, 0.6. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Draw Background was corrected from null to its default, true. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Background Padding was corrected from null to its default, 2. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Background Height was corrected from null to its default, 6. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Health Bar Height was corrected from null to its default, 4. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Plate Size was corrected from null to its default, 25. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Plate Size (Boss) was corrected from null to its default, 50. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Attributes was corrected from null to its default, true. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Armor was corrected from null to its default, true. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Group Armor (condense 5 iron icons into 1 diamond icon) was corrected from null to its default, true. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Color Health Bar by Type (instead of health percentage) was corrected from null to its default, false. 
+[25Feb2025 21:28:38.465] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.HP Text Height was corrected from null to its default, 14. 
+[25Feb2025 21:28:38.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Max HP was corrected from null to its default, true. 
+[25Feb2025 21:28:38.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Current HP was corrected from null to its default, true. 
+[25Feb2025 21:28:38.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show HP Percentage was corrected from null to its default, true. 
+[25Feb2025 21:28:38.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Display on Players was corrected from null to its default, true. 
+[25Feb2025 21:28:38.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Display on Bosses was corrected from null to its default, true. 
+[25Feb2025 21:28:38.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Only show the health bar for the entity looked at was corrected from null to its default, false. 
+[25Feb2025 21:28:38.466] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show entities with full health was corrected from null to its default, true. 
+[25Feb2025 21:28:38.467] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Show Debug Info with F3 was corrected from null to its default, true. 
+[25Feb2025 21:28:38.467] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Blacklist was corrected from null to its default, [minecraft:shulker, minecraft:armor_stand, minecraft:cod, minecraft:salmon, minecraft:pufferfish, minecraft:tropical_fish]. 
+[25Feb2025 21:28:38.469] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\mod_menu-client.toml is not correct. Correcting
+[25Feb2025 21:28:38.470] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.470] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.sorting was corrected from null to its default, ASCENDING. 
+[25Feb2025 21:28:38.470] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.compact_list was corrected from null to its default, false. 
+[25Feb2025 21:28:38.470] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.mods_button_style was corrected from null to its default, CLASSIC. 
+[25Feb2025 21:28:38.470] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.game_menu_button_style was corrected from null to its default, REPLACE. 
+[25Feb2025 21:28:38.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.mod_count_location was corrected from null to its default, TITLE_SCREEN. 
+[25Feb2025 21:28:38.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.easter_eggs was corrected from null to its default, true. 
+[25Feb2025 21:28:38.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.random_java_colors was corrected from null to its default, false. 
+[25Feb2025 21:28:38.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.translate_names was corrected from null to its default, true. 
+[25Feb2025 21:28:38.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.translate_descriptions was corrected from null to its default, true. 
+[25Feb2025 21:28:38.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.quick_configure was corrected from null to its default, true. 
+[25Feb2025 21:28:38.471] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.modify_title_screen was corrected from null to its default, true. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.modify_game_menu was corrected from null to its default, true. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.config_mode was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key main.disable_drag_and_drop was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.show_libraries was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hide_mod_links was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hide_mod_license was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hide_badges was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hide_mod_credits was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hide_config_buttons was corrected from null to its default, false. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hide_badge_buttons was corrected from null to its default, true. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hidden_mods was corrected from null to its default, []. 
+[25Feb2025 21:28:38.472] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.hidden_configs was corrected from null to its default, []. 
+[25Feb2025 21:28:38.473] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.library_list was corrected from null to its default, []. 
+[25Feb2025 21:28:38.473] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.disable_default_badges_section was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.473] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.disable_default_badges_section.disable_default_badges_all was corrected from null to its default, false. 
+[25Feb2025 21:28:38.473] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hide.disable_default_badges_section.disable_default_badges was corrected from null to its default, []. 
+[25Feb2025 21:28:38.474] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key count was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.474] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key count.count_hidden_mods was corrected from null to its default, true. 
+[25Feb2025 21:28:38.474] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key count.count_children was corrected from null to its default, true. 
+[25Feb2025 21:28:38.474] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key count.count_libraries was corrected from null to its default, true. 
+[25Feb2025 21:28:38.475] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mod_badges was corrected from null to its default, []. 
+[25Feb2025 21:28:38.476] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mod_parents was corrected from null to its default, []. 
+[25Feb2025 21:28:38.479] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\forge-client.toml is not correct. Correcting
+[25Feb2025 21:28:38.479] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
+[25Feb2025 21:28:38.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
+[25Feb2025 21:28:38.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
+[25Feb2025 21:28:38.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
+[25Feb2025 21:28:38.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
+[25Feb2025 21:28:38.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.calculateAllNormals was corrected from null to its default, false. 
+[25Feb2025 21:28:38.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.stabilizeDirectionGetNearest was corrected from null to its default, true. 
+[25Feb2025 21:28:38.484] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\dummmmmmy-client.toml is not correct. Correcting
+[25Feb2025 21:28:38.484] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.484] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.animation_intensity was corrected from null to its default, 0.75. 
+[25Feb2025 21:28:38.484] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.show_hearths was corrected from null to its default, false. 
+[25Feb2025 21:28:38.484] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.damage_numbers was corrected from null to its default, true. 
+[25Feb2025 21:28:38.485] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.full_bright_damage_numbers was corrected from null to its default, true. 
+[25Feb2025 21:28:38.485] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.crit_mode was corrected from null to its default, COLOR_AND_MULTIPLIER. 
+[25Feb2025 21:28:38.485] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.hay_particles was corrected from null to its default, true. 
+[25Feb2025 21:28:38.485] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.texture was corrected from null to its default, DEFAULT. 
+[25Feb2025 21:28:38.493] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key visuals.damage_type_colors was corrected from null to its default, SimpleCommentedConfig:{minecraft:wind_charge=#00BEF3FF, #dummmmmmy:is_fire=#00FF7700, dummmmmmy:critical=#00FF0000, #minecraft:is_drowning=#001898E3, minecraft:dragon_breath=#00E600FF, #dummmmmmy:is_thorn=#000FA209, minecraft:generic=#00FFFFFF, #minecraft:witch_resistant_to=#00844CE7, #dummmmmmy:is_explosion=#00FFBB29, #minecraft:is_lightning=#00FFF200, minecraft:sonic_boom=#00074550, #dummmmmmy:is_cold=#0009D2FF, #dummmmmmy:is_wither=#00666666, dummmmmmy:true=#00910038, attributeslib:bleeding=#00810A0A, minecraft:trident=#0000FF9D}. 
+[25Feb2025 21:28:38.497] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\config\mine_and_slash-client.toml is not correct. Correcting
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.show_low_mana_warning was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.render_mob_bar was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.render_death_stats was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.render_item_rarity_background was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.show_durability was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.render_mob_hp_gui was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.only_render_mob_looked_at was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.render_floating_damage was corrected from null to its default, DEFAULT. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.MODIFY_TOOLTIP_LENGTH was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.IN_DEPTH_TOOLTIPS_BY_DEFAULT was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.USE_SPELL_ANIMATIONS was corrected from null to its default, true. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.RENDER_FILLED_GUI_BARS was corrected from null to its default, DEFAULT. 
+[25Feb2025 21:28:38.498] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ITEM_RARITY_OPACITY was corrected from null to its default, 0.75. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.health_bar_gui_scale was corrected from null to its default, 1.25. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.SPELL_PARTICLE_MULTI was corrected from null to its default, 1.0. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.DONT_CULL_PARTICLES_UNDER was corrected from null to its default, 50.0. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.HOTBAR_SWAPPING was corrected from null to its default, false. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.GUI_POSITION was corrected from null to its default, TOP_LEFT. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ITEM_RARITY_BACKGROUND_TYPE was corrected from null to its default, FULL. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.PLAYER_GUI_TYPE was corrected from null to its default, RPG. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.DAMAGE_PARTICLE_STYLE was corrected from null to its default, DEFAULT. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.SKILL_TREE_ZOOM_SPEED was corrected from null to its default, 0.15. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.REMOVE_EMPTY_TOOLTIP_LINES_IF_MORE_THAN_X_LINES was corrected from null to its default, 45. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.SHOW_DECIMALS_ON_NUMBER_SMALLER_THAN was corrected from null to its default, 15. 
+[25Feb2025 21:28:38.499] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.STATUS_EFFECTS_OVERLAY_TYPE was corrected from null to its default, HORIZONTAL. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.SPELL_HOTBAR_OVERLAY_TYPE was corrected from null to its default, VERTICAL. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.spell_cast_bar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.spell_cast_bar.ANCHOR_TO was corrected from null to its default, SCREEN. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.spell_cast_bar.ANCHOR_X was corrected from null to its default, MIDDLE. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.spell_cast_bar.ANCHOR_Y was corrected from null to its default, END. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.spell_cast_bar.X_OFFSET was corrected from null to its default, -86. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.spell_cast_bar.Y_OFFSET was corrected from null to its default, -125. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.horizontal_spell_hotbar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.horizontal_spell_hotbar.ANCHOR_TO was corrected from null to its default, SCREEN. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.horizontal_spell_hotbar.ANCHOR_X was corrected from null to its default, MIDDLE. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.horizontal_spell_hotbar.ANCHOR_Y was corrected from null to its default, END. 
+[25Feb2025 21:28:38.500] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.horizontal_spell_hotbar.X_OFFSET was corrected from null to its default, -81. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.horizontal_spell_hotbar.Y_OFFSET was corrected from null to its default, -65. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.vertical_spell_hotbar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.vertical_spell_hotbar.ANCHOR_TO was corrected from null to its default, SCREEN. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.vertical_spell_hotbar.ANCHOR_X was corrected from null to its default, START. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.vertical_spell_hotbar.ANCHOR_Y was corrected from null to its default, MIDDLE. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.vertical_spell_hotbar.X_OFFSET was corrected from null to its default, 0. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.vertical_spell_hotbar.Y_OFFSET was corrected from null to its default, -81. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_bottom_right was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_bottom_right.ANCHOR_TO was corrected from null to its default, SCREEN. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_bottom_right.ANCHOR_X was corrected from null to its default, MIDDLE. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_bottom_right.ANCHOR_Y was corrected from null to its default, END. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_bottom_right.X_OFFSET was corrected from null to its default, 90. 
+[25Feb2025 21:28:38.501] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_bottom_right.Y_OFFSET was corrected from null to its default, -30. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_under_vertical_hotbar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_under_vertical_hotbar.ANCHOR_TO was corrected from null to its default, SPELL_HOTBAR_VERTICAL. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_under_vertical_hotbar.ANCHOR_X was corrected from null to its default, START. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_under_vertical_hotbar.ANCHOR_Y was corrected from null to its default, END. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_under_vertical_hotbar.X_OFFSET was corrected from null to its default, 2. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.status_effects_under_vertical_hotbar.Y_OFFSET was corrected from null to its default, 2. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.SPELL_HOTBAR_HORIZONTAL_CONFIG was corrected from null to its default, HOTBAR_HORIZONTAL. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.SPELL_HOTBAR_VERTICAL_CONFIG was corrected from null to its default, HOTBAR_VERTICAL. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.EFFECTS_VERTICAL_CONFIG was corrected from null to its default, EFFECTS_UNDER_VERTICAL_HOTBAR. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.EFFECTS_HORIZONTAL_CONFIG was corrected from null to its default, EFFECTS_BOTTOM_RIGHT. 
+[25Feb2025 21:28:38.502] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.overlays.SPELL_CAST_BAR_CONFIG was corrected from null to its default, SPELL_CAST_BAR. 
+[25Feb2025 21:28:38.555] [Worker-ResourceReload-10/INFO] [ToolLeveling+/]: Created README.txt in config folder.
+[25Feb2025 21:28:38.558] [Worker-ResourceReload-10/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
+[25Feb2025 21:28:38.559] [Worker-ResourceReload-10/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
+[25Feb2025 21:28:38.560] [Worker-ResourceReload-10/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
+[25Feb2025 21:28:38.560] [Worker-ResourceReload-10/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
+[25Feb2025 21:28:38.604] [Worker-ResourceReload-4/WARN] [net.minecraft.client.sounds.SoundManager/]: File cataclysm:sounds/entity/maledictus_leap.ogg does not exist, cannot add it to event cataclysm:maledictus_leap
+[25Feb2025 21:28:38.607] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[25Feb2025 21:28:38.618] [Worker-ResourceReload-3/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
+[25Feb2025 21:28:38.640] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[25Feb2025 21:28:38.663] [Worker-ResourceReload-0/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[25Feb2025 21:28:38.691] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.703] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.713] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.731] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.742] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.750] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.762] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.770] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.785] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.793] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.802] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.809] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.814] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.821] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.827] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.842] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.853] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.887] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.888] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.889] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.894] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.897] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.917] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:28:38.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.67 Target: null
+[25Feb2025 21:28:38.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[25Feb2025 21:28:39.005] [Worker-ResourceReload-3/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
+[25Feb2025 21:28:39.005] [Worker-ResourceReload-3/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
+[25Feb2025 21:28:39.012] [Worker-ResourceReload-3/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model slu:models/custom/berserk_greatsword.json
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:DRSL
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:321) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.m_111461_(BlockModel.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246478_(ModelManager.java:110) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Feb2025 21:28:39.169] [Worker-ResourceReload-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model slu:models/custom/fire_staff.json
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:GH
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:321) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.m_111461_(BlockModel.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246478_(ModelManager.java:110) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Feb2025 21:28:39.223] [Worker-ResourceReload-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite slu:block/white_flame_sword frame 7: 7
+[25Feb2025 21:28:39.275] [Worker-ResourceReload-8/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model slu:models/custom/magic_injector.json
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:magic injector
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:321) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.m_111461_(BlockModel.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.client.resources.model.ModelManager.m_246478_(ModelManager.java:110) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Feb2025 21:28:39.408] [Worker-ResourceReload-7/INFO] [epicfight/]: Register animations from epicfight
+[25Feb2025 21:28:39.411] [Render thread/INFO] [Moonlight/]: Initialized color sets in 11ms
+[25Feb2025 21:28:39.434] [Worker-ResourceReload-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite cataclysm:item/cursed_eye: [8, 9]
+[25Feb2025 21:28:39.495] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture slu:block/ashen_shield with size 200x200 limits mip level from 4 to 3
+[25Feb2025 21:28:39.495] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture slu:item/magic_wand_staff with size 20x20 limits mip level from 3 to 2
+[25Feb2025 21:28:39.497] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture slu:item/talon_claw with size 45x45 limits mip level from 2 to 0
+[25Feb2025 21:28:39.573] [Worker-ResourceReload-5/INFO] [computer.heather.advancedbackups.AdvancedBackups/]: Preparing to write to client properties file...
+[25Feb2025 21:28:39.590] [Worker-ResourceReload-9/ERROR] [dev.foxgirl.damagenumbers.DamageNumbers/]: Failed to read config, file not found, creating config
+[25Feb2025 21:28:39.776] [Worker-ResourceReload-7/INFO] [epicfight/]: Register animations from wom
+[25Feb2025 21:28:39.859] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'mmorpg:blockstates/league.json' missing model for variant: 'mmorpg:league#'
+[25Feb2025 21:28:39.900] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'mmorpg:test_gen#inventory' referenced from: mmorpg:test_gen#inventory: java.io.FileNotFoundException: mmorpg:models/item/test_gen.json
+[25Feb2025 21:28:39.903] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'library_of_exile:teleport_back#inventory' referenced from: library_of_exile:teleport_back#inventory: java.io.FileNotFoundException: library_of_exile:models/item/teleport_back.json
+[25Feb2025 21:28:40.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
+[25Feb2025 21:28:40.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Feb2025 21:28:40.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[25Feb2025 21:28:41.209] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber4_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber4_tier1
+[25Feb2025 21:28:41.209] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber2_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber2_tier1
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:trap#facing=north,lit=false:
+    minecraft:textures/atlas/blocks.png:minecraft:spells/trap
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber6_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber6_tier1
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber3_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber3_tier1
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:trap#facing=south,lit=true:
+    minecraft:textures/atlas/blocks.png:minecraft:spells/trap
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber5_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber5_tier1
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber7_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber7_tier1
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber8_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber8_tier1
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:loot_crate/default#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:block/loot_crate/default
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber9_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber9_tier2
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber8_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber8_tier2
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model cataclysm:coral_chunk#inventory:
+    minecraft:textures/atlas/blocks.png:cataclysm:item/coral_chunk_1
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:black_hole#facing=east,lit=true:
+    minecraft:textures/atlas/blocks.png:minecraft:entity/end_portal
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber5_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber5_tier0
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber3_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber3_tier0
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber7_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber7_tier0
+[25Feb2025 21:28:41.210] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber2_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber2_tier2
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber9_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber9_tier1
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber6_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber6_tier2
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber4_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber4_tier2
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:black_hole#facing=west,lit=true:
+    minecraft:textures/atlas/blocks.png:minecraft:entity/end_portal
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber9_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber9_tier0
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber4_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber4_tier2
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber7_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber7_tier0
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber6_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber6_tier2
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber2_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber2_tier2
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber9_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber9_tier1
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber5_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber5_tier0
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber3_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber3_tier0
+[25Feb2025 21:28:41.211] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber9_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber9_tier0
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:trap#facing=east,lit=true:
+    minecraft:textures/atlas/blocks.png:minecraft:spells/trap
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber9_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber9_tier2
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber8_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber8_tier2
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber5_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber5_tier1
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:trap#facing=west,lit=true:
+    minecraft:textures/atlas/blocks.png:minecraft:spells/trap
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber3_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber3_tier1
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber4_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber4_tier1
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber2_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber2_tier1
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber7_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber7_tier1
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber6_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber6_tier1
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber8_tier1#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber8_tier1
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:black_hole#facing=south,lit=false:
+    minecraft:textures/atlas/blocks.png:minecraft:entity/end_portal
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber4_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber4_tier0
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber2_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber2_tier0
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber6_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber6_tier0
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber3_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber3_tier2
+[25Feb2025 21:28:41.212] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber5_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber5_tier2
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber7_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber7_tier2
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/map_uber8_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/map_uber8_tier0
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber5_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber5_tier2
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber3_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber3_tier2
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:black_hole#facing=north,lit=false:
+    minecraft:textures/atlas/blocks.png:minecraft:entity/end_portal
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber7_tier2#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber7_tier2
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber6_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber6_tier0
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber8_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber8_tier0
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber4_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber4_tier0
+[25Feb2025 21:28:41.213] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mmorpg:uber/frag_uber2_tier0#inventory:
+    minecraft:textures/atlas/blocks.png:mmorpg:item/uber/frag_uber2_tier0
+[25Feb2025 21:28:41.565] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.forge.ForgeConfigProvider
+[25Feb2025 21:28:41.565] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.framework.FrameworkConfigProvider
+[25Feb2025 21:28:41.566] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.jei.JeiConfigProvider
+[25Feb2025 21:28:41.566] [Render thread/INFO] [Configured/]: Creating config GUI factories...
+[25Feb2025 21:28:41.570] [Render thread/INFO] [Configured/]: Registering config factory for mod moonlight. Found 2 config(s)
+[25Feb2025 21:28:41.570] [Render thread/INFO] [Configured/]: Registering config factory for mod mmorpg. Found 4 config(s)
+[25Feb2025 21:28:41.570] [Render thread/INFO] [Configured/]: Registering config factory for mod wom. Found 1 config(s)
+[25Feb2025 21:28:41.570] [Render thread/INFO] [Configured/]: Registering config factory for mod cataclysm. Found 1 config(s)
+[25Feb2025 21:28:41.570] [Render thread/INFO] [Configured/]: Registering config factory for mod curios. Found 3 config(s)
+[25Feb2025 21:28:41.574] [Render thread/INFO] [Configured/]: Registering config factory for mod forge. Found 2 config(s)
+[25Feb2025 21:28:41.574] [Render thread/INFO] [Configured/]: Registering config factory for mod dummmmmmy. Found 2 config(s)
+[25Feb2025 21:28:41.575] [Render thread/INFO] [Configured/]: Registering config factory for mod mod_menu. Found 1 config(s)
+[25Feb2025 21:28:41.575] [Render thread/INFO] [Configured/]: Registering config factory for mod slu. Found 1 config(s)
+[25Feb2025 21:28:41.575] [Render thread/INFO] [Configured/]: Registering config factory for mod nyfsspiders. Found 1 config(s)
+[25Feb2025 21:28:41.669] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[25Feb2025 21:28:41.670] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[25Feb2025 21:28:41.670] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:ignisshieldbreak
+[25Feb2025 21:28:41.710] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Hangszórók (2- High Definition Audio Device)
+[25Feb2025 21:28:41.712] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[25Feb2025 21:28:41.848] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[25Feb2025 21:28:41.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[25Feb2025 21:28:41.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[25Feb2025 21:28:41.879] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[25Feb2025 21:28:41.879] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[25Feb2025 21:28:41.884] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[25Feb2025 21:28:41.884] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[25Feb2025 21:28:41.884] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[25Feb2025 21:28:41.885] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[25Feb2025 21:28:41.999] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/travelersbackpack.json for entity.minecraft.player: com.tiviacz.travelersbackpack.client.renderer.TravelersBackpackLayer
+[25Feb2025 21:28:41.999] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer
+[25Feb2025 21:28:42.004] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/travelersbackpack.json for entity.minecraft.player: com.tiviacz.travelersbackpack.client.renderer.TravelersBackpackLayer
+[25Feb2025 21:28:42.004] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer
+[25Feb2025 21:28:42.028] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/travelersbackpack.json for entity.minecraft.player: com.tiviacz.travelersbackpack.client.renderer.TravelersBackpackLayer
+[25Feb2025 21:28:42.028] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer
+[25Feb2025 21:28:42.083] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[25Feb2025 21:28:42.133] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x4096x0 minecraft:textures/atlas/particles.png-atlas
+[25Feb2025 21:28:42.190] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[25Feb2025 21:28:42.190] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[25Feb2025 21:28:42.196] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[25Feb2025 21:28:42.214] [Render thread/ERROR] [epicfight/]: Failed to load User animation wom:biped/combat/katana_dash because of java.lang.IllegalStateException: No constructor information has provided in User animation wom:biped/combat/katana_dash. Skipped.
+[25Feb2025 21:28:42.571] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:terrible_sword does not exist
+[25Feb2025 21:28:42.572] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:whisper_of_the_abyss does not exist
+[25Feb2025 21:28:42.572] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:dagger_of_greed does not exist
+[25Feb2025 21:28:42.573] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:remnants_saber does not exist
+[25Feb2025 21:28:42.573] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:sweet_lance does not exist
+[25Feb2025 21:28:42.573] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:fin_cutter does not exist
+[25Feb2025 21:28:42.574] [Render thread/WARN] [epicfight/]: [Item Skins] Item named slu:aaa_big_weapon does not exist
+[25Feb2025 21:28:42.574] [Render thread/WARN] [epicfight/]: [Item Skins] Item named eeeabsmobs:guardian_axe does not exist
+[25Feb2025 21:28:42.574] [Render thread/WARN] [epicfight/]: [Item Skins] Item named eeeabsmobs:immortal_axe does not exist
+[25Feb2025 21:28:42.574] [Render thread/WARN] [epicfight/]: [Item Skins] Item named eeeabsmobs:immortal_sword does not exist
+[25Feb2025 21:28:42.574] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:coral_lance does not exist
+[25Feb2025 21:28:42.574] [Render thread/WARN] [epicfight/]: [Item Skins] Item named slu:aaa_small_weapon does not exist
+[25Feb2025 21:28:42.574] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:poisoned_blade does not exist
+[25Feb2025 21:28:42.575] [Render thread/WARN] [epicfight/]: [Item Skins] Item named aquamirae:divider does not exist
+[25Feb2025 21:28:44.630] [Render thread/WARN] [ModernFix/]: Game took 19.316 seconds to start
+[25Feb2025 21:28:47.290] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[25Feb2025 21:29:27.844] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 47.3.29 -> 47.3.0)
+Things may not work well.
+[25Feb2025 21:29:29.424] [Worker-ResourceReload-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Feb2025 21:29:29.920] [Worker-ResourceReload-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:too_many_bows:reward_loot_table
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'too_many_bows:ancient_sage'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Feb2025 21:29:30.088] [Worker-ResourceReload-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:too_many_bows:chests/common_bows
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'too_many_bows:ancient_sage'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.0-universal.jar%23215!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Feb2025 21:29:30.157] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/simple_dungeon}.pools[7].entries[0]: Unknown loot table called too_many_bows:chests/common_bows
+[25Feb2025 21:29:30.157] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/abandoned_mineshaft}.pools[7].entries[0]: Unknown loot table called too_many_bows:chests/common_bows
+[25Feb2025 21:29:30.175] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe too_many_bows:ethereal_hunter: com.google.gson.JsonSyntaxException: Unknown item 'too_many_bows:repair_crystal'
+[25Feb2025 21:29:30.194] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[25Feb2025 21:29:30.243] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1343 advancements
+[25Feb2025 21:29:30.249] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[25Feb2025 21:29:30.252] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[25Feb2025 21:29:30.260] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_katana
+[25Feb2025 21:29:30.260] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_dagger
+[25Feb2025 21:29:30.261] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.262] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.262] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.263] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.263] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.264] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.264] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.264] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.266] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.266] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.266] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_berserk_sword
+[25Feb2025 21:29:30.266] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.266] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.267] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_mace
+[25Feb2025 21:29:30.267] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.268] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.268] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_staff
+[25Feb2025 21:29:30.268] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.268] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_longsword
+[25Feb2025 21:29:30.269] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_fist
+[25Feb2025 21:29:30.269] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.269] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.269] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_staff
+[25Feb2025 21:29:30.269] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.269] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.269] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.270] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.270] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.270] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_scythe
+[25Feb2025 21:29:30.270] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greataxe
+[25Feb2025 21:29:30.270] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_magic_staff
+[25Feb2025 21:29:30.270] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.270] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.271] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.271] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.271] [Render thread/WARN] [epicfight/]: Error while deserializing datapack for simplyswords:slumbering_lichblade
+[25Feb2025 21:29:30.271] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_axe
+[25Feb2025 21:29:30.271] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.271] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_giant_sword
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_claw
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.272] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.273] [Render thread/WARN] [epicfight/]: Error while deserializing datapack for simplyswords:watcher_claymore
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_dagger
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_dagger
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_staff
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greataxe
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.274] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_giant_sword
+[25Feb2025 21:29:30.275] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.275] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.275] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greataxe
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_staff
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_dagger
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_nightbringer
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_katana
+[25Feb2025 21:29:30.276] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_longsword
+[25Feb2025 21:29:30.278] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_noxus_axe
+[25Feb2025 21:29:30.278] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.278] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.278] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.278] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.279] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.279] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.279] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.279] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.279] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.279] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.280] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.281] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.281] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_axe
+[25Feb2025 21:29:30.281] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.281] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.281] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.281] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_axe
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_staff
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_staff
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_mace
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_magic_staff
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.282] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_mercury_hammer
+[25Feb2025 21:29:30.283] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.283] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_hand
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_noxus_axe
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_heavy_mace
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_mace
+[25Feb2025 21:29:30.284] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.285] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.285] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_noxus_axe
+[25Feb2025 21:29:30.286] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_giant_sword
+[25Feb2025 21:29:30.286] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_longsword
+[25Feb2025 21:29:30.286] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greatsword
+[25Feb2025 21:29:30.286] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.287] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.287] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.287] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.287] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.287] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.288] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_spear
+[25Feb2025 21:29:30.288] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.288] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_giant_sword
+[25Feb2025 21:29:30.288] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_aatrox_sword
+[25Feb2025 21:29:30.288] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_greataxe
+[25Feb2025 21:29:30.289] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_axe
+[25Feb2025 21:29:30.289] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_shotgun
+[25Feb2025 21:29:30.289] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_mace
+[25Feb2025 21:29:30.289] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.289] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_sword
+[25Feb2025 21:29:30.289] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_staff
+[25Feb2025 21:29:30.289] [Render thread/WARN] [epicfight/]: epicfight:blood is not a hit particle type in epicfight:slu_wolf_knight_sword
+[25Feb2025 21:29:30.901] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[25Feb2025 21:29:30.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Feb2025 21:29:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Roli\AppData\Roaming\ExtremeLauncher\instances\dathost-localdev\minecraft\saves\world\serverconfig\forge-server.toml is not correct. Correcting
+[25Feb2025 21:29:30.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from false to its default, null. 
+[25Feb2025 21:29:31.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Feb2025 21:29:31.740] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 21:29:31.740] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 21:29:32.118] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Feb2025 21:29:32.122] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 929 ms
+[25Feb2025 21:29:32.125] [Server thread/INFO] [computer.heather.advancedbackups.AdvancedBackups/]: Config loaded!!
+[25Feb2025 21:29:32.243] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[25Feb2025 21:29:32.245] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[25Feb2025 21:29:32.328] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[25Feb2025 21:29:32.672] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[25Feb2025 21:29:32.721] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrWhale[local:E:3580bcdc] logged in with entity id 175 at (4.5, 96.0, 37.5)
+[25Feb2025 21:29:32.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrWhale joined the game
+[25Feb2025 21:29:32.785] [Render thread/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/api/blockview/v2/FabricBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.blockview.v2.FabricBlockView)
+[25Feb2025 21:29:32.787] [Render thread/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/api/rendering/data/v1/RenderAttachedBlockView (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.rendering.data.v1.RenderAttachedBlockView)
+[25Feb2025 21:29:32.816] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
+[25Feb2025 21:29:32.880] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'MrWhale'
+[25Feb2025 21:29:32.881] [Server thread/INFO] [ToolLeveling+/]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
+[25Feb2025 21:29:32.881] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'MrWhale'
+[25Feb2025 21:29:32.993] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: cataclysm:weapon_fusion/cataclysm:weapon_infusion/ignitium_elytra_chestplate
+[25Feb2025 21:29:32.995] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: cataclysm:weapon_fusion/cataclysm:weapon_infusion/gauntlet_of_bulwark
+[25Feb2025 21:29:32.998] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: cataclysm:weapon_fusion/cataclysm:weapon_infusion/void_forge
+[25Feb2025 21:29:33.000] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: cataclysm:weapon_fusion/cataclysm:weapon_infusion/the_immolator
+[25Feb2025 21:29:33.001] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: cataclysm:weapon_fusion/cataclysm:weapon_infusion/wrath_of_the_desert
+[25Feb2025 21:29:33.003] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: cataclysm:weapon_fusion/cataclysm:weapon_infusion/gauntlet_of_maelstrom
+[25Feb2025 21:29:33.005] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: cataclysm:weapon_fusion/cataclysm:weapon_infusion/void_assault_shoulder_weapon
+[25Feb2025 21:29:33.917] [Render thread/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' received and loaded.
+[25Feb2025 21:29:33.917] [Render thread/INFO] [ToolLeveling+/]: Config 'command_config.json' received and loaded.
+[25Feb2025 21:29:33.921] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 22 advancements
+[25Feb2025 21:29:34.035] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1005, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[25Feb2025 21:29:34.402] [Render thread/WARN] [ModernFix/]: Time from main menu to in-game was 3.5881195 seconds
+[25Feb2025 21:29:34.402] [Render thread/WARN] [ModernFix/]: Total time to load game and open world was 22.90412 seconds
+[25Feb2025 21:29:44.251] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[25Feb2025 21:29:44.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Feb2025 21:29:44.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mmorpg:dungeon
+[25Feb2025 21:29:44.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Feb2025 21:29:44.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Feb2025 21:29:44.526] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/travelersbackpack.json for entity.minecraft.player: com.tiviacz.travelersbackpack.client.renderer.TravelersBackpackLayer
+[25Feb2025 21:29:44.527] [Render thread/ERROR] [epicfight/]: Couldn't read layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer
+[25Feb2025 21:29:44.562] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrWhale lost connection: Disconnected
+[25Feb2025 21:29:44.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrWhale left the game
+[25Feb2025 21:29:44.575] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[25Feb2025 21:29:44.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Feb2025 21:29:44.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Feb2025 21:29:44.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Feb2025 21:29:44.628] [AB Active Backup Thread/INFO] [computer.heather.advancedbackups.AdvancedBackups/]: Preparing incremental backup with name:
+  backup_2025-02-25_21-29-44
+[25Feb2025 21:29:45.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Feb2025 21:29:45.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mmorpg:dungeon
+[25Feb2025 21:29:45.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Feb2025 21:29:45.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Feb2025 21:29:45.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Feb2025 21:29:45.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[25Feb2025 21:29:45.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Feb2025 21:29:45.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Feb2025 21:29:45.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Feb2025 21:29:45.228] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[25Feb2025 21:32:03.146] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "79c7338e-ff7a-3303-88c4-fb949a6544fe",
+    "name": "RamHor",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4ac20aac-c874-3aa0-b466-2b86c79a7318",
+    "name": "MrWhale",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "cdfe34f3-774d-3bcb-a64d-1daf5518099f",
+    "name": "kamuminecraft",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

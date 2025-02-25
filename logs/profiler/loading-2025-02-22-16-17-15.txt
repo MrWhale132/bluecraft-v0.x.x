@@ -1,0 +1,39 @@
+Summary:
+
+Game takes 35 seconds to bootstrap
+ 3. Mod Scanning: 2,729 ms
+ 5. Transformer Class Loader Working: 9,678 ms
+ 8. Load Language: 3,273 ms
+ 9. Constructing Mods: 3,713 ms
+13. Loading Registries: 8,301 ms
+--------------------
+Mods use 13 seconds to initialize
+Mod init happens in parallel as part of Game Bootstrap, in stage <Constructing Mods> ~ <Loading Registries>
+Mods use 0 seconds to load
+Mod init takes 0.00 seconds CPU time. Thread utilization: 0.00%
+------------------------------------------------------------
+
+Details:
+
+Game takes 35 seconds to bootstrap
+ 1. Services Initializing: 4 ms
+ 2. Services Loading: 129 ms
+ 3. Mod Scanning: 2,729 ms
+ 4. Launch Plugin Working: 626 ms
+ 5. Transformer Class Loader Working: 9,678 ms
+ 6. Server Early Initialization: 474 ms
+ 7. Vanilla Bootstrap Start: 1,805 ms
+ 8. Load Language: 3,273 ms
+ 9. Constructing Mods: 3,713 ms
+10. Creating Registries: 514 ms
+11. Gathering Object Holders: 295 ms
+12. Injecting Capabilities: 434 ms
+13. Loading Registries: 8,301 ms
+14. Mod Setup: 1,663 ms
+15. Inter-Mod Communication: 1,387 ms
+--------------------
+Mods use 13 seconds to initialize
+Mod init happens in parallel as part of Game Bootstrap, in stage <Constructing Mods> ~ <Loading Registries>
+Mods use 0 seconds to load
+Mod init takes 0.00 seconds CPU time. Thread utilization: 0.00%
+Misc 0 mods: 0 ms

@@ -1,0 +1,584 @@
+---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 2025-02-22 15:47:52
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.3.29-universal.jar%23777!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.3.29-universal.jar%23777!/:?] {re:mixin,re:classloading,pl:mixin:APP:lpcore.mixins.json:init.ServerModLoaderMixin,pl:mixin:A}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23772!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.29.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.29.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.29.jar%2369!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.29.jar%2369!/:1.0] {}
+-- MOD mod_menu --
+Details:
+	Mod File: /home/dathost/minecraft/mods/Better_Modlist-0.1.9.jar
+	Failure message: Better ModList (mod_menu) has failed to load correctly
+		java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	Mod Version: 0.1.9
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.29.jar%2369!/:1.0] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?] {re:mixin}
+	at java.lang.Class.getConstructor0(Class.java:3754) ~[?:?] {re:mixin}
+	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:73) ~[javafmllanguage-1.20.1-47.3.29.jar%23774!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.3.29.jar%23773!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {re:mixin}
+
+
+-- MOD creativetabsearch --
+Details:
+	Mod File: /home/dathost/minecraft/mods/creativetabsearch-0.1.2.jar
+	Failure message: Creative Tab Search (creativetabsearch) has failed to load correctly
+		top.srcres.mods.creativetabsearch.IllegalDistException: This mod can't be loaded in the server side.
+	Mod Version: 0.1.2
+	Mod Issue URL: https://github.com/srcres258/CreativeTabSearch/issues
+	Exception message: top.srcres.mods.creativetabsearch.IllegalDistException: This mod can't be loaded in the server side.
+Stacktrace:
+	at top.srcres.mods.creativetabsearch.CreativeTabSearch.<init>(CreativeTabSearch.java:22) ~[creativetabsearch-0.1.2.jar%23497!/:0.1.2] {re:classloading}
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.29.jar%23774!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.3.29.jar%23773!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {re:mixin}
+
+
+-- MOD auto_crouch --
+Details:
+	Mod File: /home/dathost/minecraft/mods/auto_crouch-mc1.20-1.0.0-build.6.jar
+	Failure message: Auto Crouch (auto_crouch) has failed to load correctly
+		java.lang.RuntimeException: Attempted to load class me/shedaniel/autoconfig/gui/registry/api/GuiProvider for invalid dist DEDICATED_SERVER
+	Mod Version: 1.0.0
+	Mod Issue URL: https://github.com/MrMelon54/auto_crouch/issues
+	Exception message: java.lang.RuntimeException: Attempted to load class me/shedaniel/autoconfig/gui/registry/api/GuiProvider for invalid dist DEDICATED_SERVER
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.29.jar%2369!/:1.0] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at forge.com.mrmelon54.AutoCrouch.forge.AutoCrouchForge.<init>(AutoCrouchForge.java:18) ~[auto_crouch-mc1.20-1.0.0-build.6.jar%23456!/:?] {re:classloading}
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.29.jar%23774!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.3.29.jar%23773!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {re:mixin}
+
+
+-- MOD enhanced_boss_bars --
+Details:
+	Mod File: /home/dathost/minecraft/mods/enhanced_boss_bars-1.20.1-1.0.0.jar
+	Failure message: Enhanced Boss Bars (enhanced_boss_bars) has failed to load correctly
+		java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	Mod Version: 1.20.1-1.0.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.29.jar%2369!/:1.0] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[?:?] {re:mixin}
+	at java.lang.Class.getDeclaredMethod(Class.java:2846) ~[?:?] {re:mixin}
+	at net.minecraftforge.eventbus.EventBus.getDeclMethod(EventBus.java:91) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$registerObject$4(EventBus.java:103) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1736) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$registerObject$7(EventBus.java:105) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?] {}
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.registerObject(EventBus.java:102) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.register(EventBus.java:128) ~[eventbus-6.0.5.jar%2352!/:?] {}
+	at com.nakuring.enhanced_boss_bars.EnhancedBossBars.<init>(EnhancedBossBars.java:40) ~[enhanced_boss_bars-1.20.1-1.0.0.jar%23544!/:1.20.1-1.0.0] {re:classloading}
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.29.jar%23774!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.3.29.jar%23773!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.8.0-52-generic
+	Java Version: 21.0.6, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 75700184 bytes (72 MiB) / 838860800 bytes (800 MiB) up to 17179869184 bytes (16384 MiB)
+	CPUs: 8
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7443 24-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 48
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 105287.91
+	Virtual memory used (MB): 146363.80
+	Swap memory total (MB): 40959.99
+	Swap memory used (MB): 35247.91
+	JVM Flags: 5 total; -XX:+StartAttachListener -XX:ActiveProcessorCount=8 -Xmx16G -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=20
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.29.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.29.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.29.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.29.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.29.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar Loading Profiler - Transformation Service Watcher TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		gml@4.0.9
+		kotlinforforge@4.11.0
+		javafml@null
+		lowcodefml@null
+	Mod List: 
+		YungsBetterDungeons-1.20-Forge-4.0.4.jar          |YUNG's Better Dungeons        |betterdungeons                |1.20-Forge-4.0.4    |COMMON_SET|Manifest: NOSIGNATURE
+		decorativecovers 1.20.1 - v1.2 - Forge.jar        |Decorative covers             |decorativecovers              |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		Stackable Potions-forge-1.20.1-1.0.0.jar          |Stackable Potions             |stackablepotions              |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		EasyAnvils-v8.0.2-1.20.1-Forge.jar                |Easy Anvils                   |easyanvils                    |8.0.2               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		supermartijn642configlib-1.1.8-forge-mc1.20.jar   |SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.8               |COMMON_SET|Manifest: NOSIGNATURE
+		areas-1.20.1-6.0.jar                              |Areas                         |areas                         |6.0                 |COMMON_SET|Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |COMMON_SET|Manifest: NOSIGNATURE
+		nether-s-exoticism-1.20.1-1.2.9.jar               |Nether's Exoticism            |nethers_exoticism             |1.2.9               |COMMON_SET|Manifest: NOSIGNATURE
+		Grass_Overhaul-Forge-23.10.10-MC1.20.1.jar        |Grass Overhaul                |grassoverhaul                 |23.10.10            |COMMON_SET|Manifest: NOSIGNATURE
+		loadingbackgrounds-forge-1.20.2-1.5.0.jar         |Loading Backgrounds           |loadingbackgrounds            |1.5.0               |COMMON_SET|Manifest: NOSIGNATURE
+		seasonal_lets_do-forge-1.1.0.jar                  |Seasonal Let's Do             |seasonal_lets_do              |1.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		modernfix-forge-5.19.5+mc1.20.1.jar               |ModernFix                     |modernfix                     |5.19.5+mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.6.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.6    |COMMON_SET|Manifest: NOSIGNATURE
+		MaxHealthFix-Forge-1.20.1-12.0.3.jar              |MaxHealthFix                  |maxhealthfix                  |12.0.3              |COMMON_SET|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		quickrightclick-1.20.1-1.5.jar                    |Quick Right-Click             |quickrightclick               |1.5                 |COMMON_SET|Manifest: NOSIGNATURE
+		epic_simply_swords_mod_1.20.1_(v19) (4).jar       |epic simply swords            |epic_simply_swords            |19                  |COMMON_SET|Manifest: NOSIGNATURE
+		toolleveling-forge-1.20.1-2.0.0.jar               |ToolLeveling+                 |toolleveling                  |1.20.1-2.0.0        |COMMON_SET|Manifest: NOSIGNATURE
+		balm-forge-1.20.1-7.3.9-all.jar                   |Balm                          |balm                          |7.3.9               |COMMON_SET|Manifest: NOSIGNATURE
+		immersive_armors-1.6.1+1.20.1-forge.jar           |Immersive Armors              |immersive_armors              |1.6.1+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		decorative_bottles-0.1.3.jar                      |Decorative Bottles            |decorativebottles             |1.20.1 - 0.1.3      |COMMON_SET|Manifest: NOSIGNATURE
+		YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar  |YUNG's Better Nether Fortresse|betterfortresses              |1.20-Forge-2.0.6    |COMMON_SET|Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |COMMON_SET|Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.20.1-1.4.5.jar   |Sound Physics Remastered      |sound_physics_remastered      |1.20.1-1.4.5        |COMMON_SET|Manifest: NOSIGNATURE
+		athena-forge-1.20.1-3.1.2.jar                     |Athena                        |athena                        |3.1.2               |COMMON_SET|Manifest: NOSIGNATURE
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		durabilitytooltip-1.1.5-forge-mc1.20.jar          |Durability Tooltip            |durabilitytooltip             |1.1.5               |COMMON_SET|Manifest: NOSIGNATURE
+		colorful-trims-1.6.jar                            |Colorful Trims                |mr_colorful_trims             |1.6                 |COMMON_SET|Manifest: NOSIGNATURE
+		structure_gel-1.20.1-2.16.2.jar                   |Structure Gel API             |structure_gel                 |2.16.2              |COMMON_SET|Manifest: NOSIGNATURE
+		REBIRTH Paintings 5.0.0.jar                       |Rebirth: Paintings            |rebirth_paintings             |12.0.0              |COMMON_SET|Manifest: NOSIGNATURE
+		xaeros_waystones_compability-1.19.2-1.20.1--1.0.ja|Xaero's Map - Waystones Compab|w2w2                          |1.0                 |COMMON_SET|Manifest: NOSIGNATURE
+		tool-trims-mod-v2-2-1a.jar                        |Tool Trims                    |tool_trims                    |2.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+		packetprofiler-2.0.3.jar                          |Packet Profiler               |packetprofiler                |2.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		ToolSwap-1.20.1-5.0.6.jar                         |ToolSwap                      |toolswap                      |1.20.1-5.0.6        |COMMON_SET|Manifest: NOSIGNATURE
+		fantasy_armor-forge-0.5-1.20.1.jar                |Fantasy Armor                 |fantasy_armor                 |0.5-1.20.1          |COMMON_SET|Manifest: NOSIGNATURE
+		mod-4.0.9.jar                                     |GroovyModLoader               |gml                           |4.0.9               |COMMON_SET|Manifest: NOSIGNATURE
+		do_a_barrel_roll-forge-3.5.6+1.20.1.jar           |Do a Barrel Roll              |do_a_barrel_roll              |3.5.6+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		glow_sticks_1.20.1-6.0.0.jar                      |Glow Sticks                   |glow_sticks                   |6.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		BlockRunner-v8.0.4-1.20.1-Forge.jar               |Block Runner                  |blockrunner                   |8.0.4               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Amplified_Nether_1.20.x_v1.2.5.jar                |Amplified Nether              |amplified_nether              |1.2.5               |COMMON_SET|Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.17a-forge-mc1.20.1.jar |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.17+a            |COMMON_SET|Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.20.1-2.1.2.jar          |Resourcefulconfig             |resourcefulconfig             |2.1.2               |COMMON_SET|Manifest: NOSIGNATURE
+		modification_of_critical_hit-1.20.1-forge-1.0.jar |Modification Of Critical Hit  |modification_of_critical_hit  |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		enchantmenttransfer-0.0.6-1.20.1.jar              |Enchantment Transfer          |enchantmenttransfer           |0.0.6               |COMMON_SET|Manifest: NOSIGNATURE
+		TimeStacker-forge-1.2.1-1.20.1.jar                |TimeStacker                   |timestacker                   |1.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+		curios-forge-5.11.0+1.20.1.jar                    |Curios API                    |curios                        |5.11.0+1.20.1       |COMMON_SET|Manifest: NOSIGNATURE
+		extendedmushrooms-1.20.1-4.1.3.2.jar              |Extended Mushrooms            |extendedmushrooms             |1.20.1-4.1.3.2      |COMMON_SET|Manifest: NOSIGNATURE
+		cgl-1.20-forge-0.3.3.jar                          |CommonGroovyLibrary           |commongroovylibrary           |0.3.3               |COMMON_SET|Manifest: NOSIGNATURE
+		Searchables-forge-1.20.1-1.0.3.jar                |Searchables                   |searchables                   |1.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		Measurements-forge-1.20.1-2.0.0.jar               |Measurements                  |measurements                  |2.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		FramedBlocks-9.3.1.jar                            |FramedBlocks                  |framedblocks                  |9.3.1               |COMMON_SET|Manifest: NOSIGNATURE
+		angelblockrenewed-forge-1.3-1.20.jar              |Angel Block Renewed           |angelblockrenewed             |1.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		MushroomQuest-1.20.1-v4.1.2.jar                   |Mushroom Quest                |mushroomquest                 |4.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		Icarus-NeoForge-2.10.0.jar                        |Icarus                        |icarus                        |2.10.0              |COMMON_SET|Manifest: NOSIGNATURE
+		Chunk-Pregenerator-1.20-4.4.4.jar                 |Chunk Pregenerator            |chunkpregen                   |1.20-4.4.4          |COMMON_SET|Manifest: NOSIGNATURE
+		worldedit-mod-7.2.15.jar                          |WorldEdit                     |worldedit                     |7.2.15+6463-5ca4dff |COMMON_SET|Manifest: NOSIGNATURE
+		Wallpapers-forge-1.20.1-1.5a-1.20.1.jar           |Wallpapers                    |wallpapers                    |1.5a-1.20.1         |COMMON_SET|Manifest: NOSIGNATURE
+		[1.20.1]+Simply+Ceramics+v1.0.0+(Forge).jar       |Simply Ceramics               |simply_ceramics               |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		wormhole-1.1.16-forge-mc1.20.jar                  |Wormhole (Portals)            |wormhole                      |1.1.16              |COMMON_SET|Manifest: NOSIGNATURE
+		Auto-Repair-Kits-1.20.1-1.0.3.jar                 |Auto Repair Kits              |auto_repair_kit               |1.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		Chimes-v2.0.1-1.20.1.jar                          |Chimes                        |chimes                        |2.0.1               |COMMON_SET|Manifest: NOSIGNATURE
+		attributetooltipfix-forge-1.20.1-2.0.1.jar        |Attribute-Tooltip-Fix         |attributetooltipfix           |1.20.1-2.0.1        |COMMON_SET|Manifest: NOSIGNATURE
+		l2library-2.4.29.jar                              |L2 Library                    |l2library                     |2.4.29              |COMMON_SET|Manifest: NOSIGNATURE
+		l2backpack-2.4.28.jar                             |L2 Backpack                   |l2backpack                    |2.4.28              |COMMON_SET|Manifest: NOSIGNATURE
+		EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar          |Easy Shulker Boxes            |easyshulkerboxes              |8.0.2               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		CodeChickenLib-1.20.1-4.4.0.516-universal.jar     |CodeChicken Lib               |codechickenlib                |4.4.0.516           |COMMON_SET|Manifest: 31:e6:db:63:47:4a:6e:e0:0a:2c:11:d1:76:db:4e:82:ff:56:2d:29:93:d2:e5:02:bd:d3:bd:9d:27:47:a5:71
+		CBMultipart-1.20.1-3.3.0.146-universal.jar        |CBMultipart                   |cb_multipart                  |3.3.0.146           |COMMON_SET|Manifest: NOSIGNATURE
+		more_music_discs-railways.jar                     |More Music Discs              |more_music_discs              |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		YungsBetterMineshafts-1.20-Forge-4.0.4.jar        |YUNG's Better Mineshafts      |bettermineshafts              |1.20-Forge-4.0.4    |COMMON_SET|Manifest: NOSIGNATURE
+		epicpaladins-0.1.1-1.20.1-forge.jar               |Epic Paladins                 |epicpaladins                  |0.1.1-1.20.1-forge  |COMMON_SET|Manifest: NOSIGNATURE
+		DynamicTrees-1.20.1-1.3.4.jar                     |Dynamic Trees                 |dynamictrees                  |1.20.1-1.3.4        |COMMON_SET|Manifest: NOSIGNATURE
+		DynamicTreesPlus-1.20.1-1.2.0-BETA3.jar           |Dynamic Trees Plus            |dynamictreesplus              |1.20.1-1.2.0-BETA3  |COMMON_SET|Manifest: NOSIGNATURE
+		BEB-Forge-1.20.1-2.0.0.jar                        |Beautiful Enchanted Books     |beb                           |2.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		YungsBetterJungleTemples-1.20-Forge-2.0.5.jar     |YUNG's Better Jungle Temples  |betterjungletemples           |1.20-Forge-2.0.5    |COMMON_SET|Manifest: NOSIGNATURE
+		Byzantine-1.21.1-21.jar                           |Byzantine                     |byzantine                     |21                  |COMMON_SET|Manifest: NOSIGNATURE
+		mowziesmobs-1.6.5.jar                             |Mowzie's Mobs                 |mowziesmobs                   |1.6.4               |COMMON_SET|Manifest: NOSIGNATURE
+		doubledoors-1.20.1-5.9.jar                        |Double Doors                  |doubledoors                   |5.9                 |COMMON_SET|Manifest: NOSIGNATURE
+		puzzlesapi-forge-8.1.6.jar                        |Puzzles Api                   |puzzlesapi                    |8.1.6               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		l2tabs-0.3.3.jar                                  |L2 Tabs                       |l2tabs                        |0.3.3               |COMMON_SET|Manifest: NOSIGNATURE
+		SereneShrubbery-1.20.1-v2.0.0.jar                 |Serene Shrubbery              |serene_shrubbery              |1.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		travelerscompass-1.20.1-3.1.02-forge.jar          |Traveler's Compass            |travelerscompass              |3.1.02              |COMMON_SET|Manifest: NOSIGNATURE
+		rechiseled-1.1.6-forge-mc1.20.jar                 |Rechiseled                    |rechiseled                    |1.1.6               |COMMON_SET|Manifest: NOSIGNATURE
+		tia-1.20-1.1-forge.jar                            |Tiny Item Animations          |tia                           |1.20-1.1            |COMMON_SET|Manifest: NOSIGNATURE
+		Mine_and_Slash-1.20.1-6.1.15.jar                  |Mine and Slash                |mmorpg                        |6.1.15              |COMMON_SET|Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.105.jar                  |Just Enough Items             |jei                           |15.20.0.105         |COMMON_SET|Manifest: NOSIGNATURE
+		decorativeentities-1.20.1-1.1-Forge.jar           |Decorative Entities           |decorativeentities            |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		VisualWorkbench-v8.0.0-1.20.1-Forge.jar           |Visual Workbench              |visualworkbench               |8.0.0               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		randomshulkercolours-1.20.1-3.3.jar               |Random Shulker Colours        |randomshulkercolours          |3.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		AttributeFix-Forge-1.20.1-21.0.4.jar              |AttributeFix                  |attributefix                  |21.0.4              |COMMON_SET|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		Pehkui-3.8.2+1.20.1-forge.jar                     |Pehkui                        |pehkui                        |3.8.2+1.20.1-forge  |COMMON_SET|Manifest: NOSIGNATURE
+		dyenamicsandfriends-1.20.1-1.9.0.jar              |Dyenamics and Friends         |dyenamicsandfriends           |1.20.1-1.9.0        |COMMON_SET|Manifest: NOSIGNATURE
+		MobsPropertiesRandomness-4.10.11-mc1.20.1.jar     |Mobs Properties Randomness    |mobspropertiesrandomness      |4.10.11             |COMMON_SET|Manifest: NOSIGNATURE
+		caelus-forge-3.2.0+1.20.1.jar                     |Caelus API                    |caelus                        |3.2.0+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		Paxi-1.20-Forge-4.0.jar                           |Paxi                          |paxi                          |1.20-Forge-4.0      |COMMON_SET|Manifest: NOSIGNATURE
+		Fallingleaves-1.20.1-2.1.0.jar                    |Falling Leaves                |fallingleaves                 |2.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		epicfight-forge-20.9.7-1.20.1.jar                 |Epic Fight                    |epicfight                     |20.9.7              |COMMON_SET|Manifest: NOSIGNATURE
+		WeaponsOfMiracles-20.1.8.5.6.jar                  |Weapons of miracle            |wom                           |20.1.8.5.6          |COMMON_SET|Manifest: NOSIGNATURE
+		easyelytratakeoff-1.20.1-4.4.jar                  |Easy Elytra Takeoff           |easyelytratakeoff             |4.4                 |COMMON_SET|Manifest: NOSIGNATURE
+		travelersbackpack-forge-1.20.1-9.1.16.jar         |Traveler's Backpack           |travelersbackpack             |9.1.16              |COMMON_SET|Manifest: NOSIGNATURE
+		NaturesCompass-1.20.1-1.11.2-forge.jar            |Nature's Compass              |naturescompass                |1.20.1-1.11.2-forge |COMMON_SET|Manifest: NOSIGNATURE
+		jumpboat-1.20.0-1.0.5.jar                         |Jumpy Boats                   |jumpboat                      |1.20.0-1.0.5        |COMMON_SET|Manifest: NOSIGNATURE
+		l2screentracker-0.1.4.jar                         |L2 Screen Tracker             |l2screentracker               |0.1.4               |COMMON_SET|Manifest: NOSIGNATURE
+		GlitchCore-forge-1.20.1-0.0.1.1.jar               |GlitchCore                    |glitchcore                    |0.0.1.1             |COMMON_SET|Manifest: NOSIGNATURE
+		SereneSeasons-forge-1.20.1-9.1.0.0.jar            |Serene Seasons                |sereneseasons                 |9.1.0.0             |COMMON_SET|Manifest: NOSIGNATURE
+		farmingforblockheads-forge-1.20.1-14.0.2.jar      |Farming for Blockheads        |farmingforblockheads          |14.0.2              |COMMON_SET|Manifest: NOSIGNATURE
+		Neruina-2.1.2-forge+1.20.1.jar                    |Neruina                       |neruina                       |2.1.2               |COMMON_SET|Manifest: NOSIGNATURE
+		Decorative Pavers-1.20.1-1.4-Forge.jar            |Decorative Pavers             |decorativepavers              |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		BagOfHolding-v8.0.2-1.20.1-Forge.jar              |Bag Of Holding                |bagofholding                  |8.0.2               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		midnightlib-forge-1.4.2.jar                       |MidnightLib                   |midnightlib                   |1.4.2               |COMMON_SET|Manifest: NOSIGNATURE
+		table_top_craft-forge-1.20.1-6.1.2.jar            |Table Top Craft               |table_top_craft               |1.20.1-6.1.2        |COMMON_SET|Manifest: NOSIGNATURE
+		decorativepaths 1.20.1 - v1.1 - Forge.jar         |Decorative Paths              |decorativepaths               |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		medieval_paintings-1.20-7.0.jar                   |Medieval Paintings            |medieval_paintings            |7.0                 |COMMON_SET|Manifest: NOSIGNATURE
+		fusion-1.1.1-forge-mc1.20.1.jar                   |Fusion                        |fusion                        |1.1.1               |COMMON_SET|Manifest: NOSIGNATURE
+		memoryleakfix-forge-1.17+-1.1.5.jar               |Memory Leak Fix               |memoryleakfix                 |1.1.5               |COMMON_SET|Manifest: NOSIGNATURE
+		Display Case-forge-1.20-1.0.8.jar                 |Display Case Mod              |display_case                  |1.0.8               |COMMON_SET|Manifest: NOSIGNATURE
+		puzzlesaccessapi-forge-8.0.9.jar                  |Puzzles Access Api            |puzzlesaccessapi              |8.0.9               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Orbs-of-Crafting-1.20.1-1.0.2.jar                 |Orbs of Crafting              |orbs_of_crafting              |1.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.29-universal.jar                |Forge                         |forge                         |47.3.29             |COMMON_SET|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		l2artifacts-2.4.27.jar                            |L2 Artifacts                  |l2artifacts                   |2.4.27              |COMMON_SET|Manifest: NOSIGNATURE
+		chalk-1.20.1-1.6.4.jar                            |Chalk                         |chalk                         |1.6.4               |COMMON_SET|Manifest: NOSIGNATURE
+		Better_Modlist-0.1.9.jar                          |Better ModList                |mod_menu                      |0.1.9               |ERROR     |Manifest: NOSIGNATURE
+		ArmorStatues-v8.0.6-1.20.1-Forge.jar              |Armor Statues                 |armorstatues                  |8.0.6               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		ironchest-1.20.1-14.4.4.jar                       |Iron Chests                   |ironchest                     |1.20.1-14.4.4       |COMMON_SET|Manifest: NOSIGNATURE
+		tectonic-forge-1.20.1-2.4.1.jar                   |Tectonic                      |tectonic                      |2.4.1               |COMMON_SET|Manifest: NOSIGNATURE
+		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		cofh_core-1.20.1-11.0.2.56.jar                    |CoFH Core                     |cofh_core                     |11.0.2              |COMMON_SET|Manifest: NOSIGNATURE
+		TerraBlender-forge-1.20.1-3.0.1.7.jar             |TerraBlender                  |terrablender                  |3.0.1.7             |COMMON_SET|Manifest: NOSIGNATURE
+		commonality-1.20.1-7.0.0.jar                      |Commonality                   |commonality                   |7.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		InvMoveCompats-1.20-0.3.2-Forge.jar               |InvMoveCompats                |invmovecompats                |0.3.2               |COMMON_SET|Manifest: NOSIGNATURE
+		inventorytotem-1.20.1-3.3.jar                     |Inventory Totem               |inventorytotem                |3.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		pamhc2crops-1.20-1.0.3.jar                        |Pam's HarvestCraft 2 - Crops  |pamhc2crops                   |1.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		persistentinventorysearch-1.20.1-1.5.jar          |Persistent Inventory Search   |persistentinventorysearch     |1.5                 |COMMON_SET|Manifest: NOSIGNATURE
+		alltheleaks-0.1.0-beta+1.20.1-forge.jar           |All The Leaks                 |alltheleaks                   |0.1.0-beta+1.20.1-fo|COMMON_SET|Manifest: NOSIGNATURE
+		ItemProductionLib-1.20.1-1.0.2a-all.jar           |Item Production Lib           |itemproductionlib             |1.0.2a              |COMMON_SET|Manifest: NOSIGNATURE
+		spectrelib-forge-0.13.15+1.20.1.jar               |SpectreLib                    |spectrelib                    |0.13.15+1.20.1      |COMMON_SET|Manifest: NOSIGNATURE
+		fastpaintings-1.20-1.2.7.jar                      |Fast Paintings                |fastpaintings                 |1.20-1.2.7          |COMMON_SET|Manifest: NOSIGNATURE
+		domum_ornamentum-1.20.1-1.0.282-snapshot-universal|Domum Ornamentum              |domum_ornamentum              |1.20.1-1.0.282-snaps|COMMON_SET|Manifest: NOSIGNATURE
+		kffmod-4.11.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.11.0              |COMMON_SET|Manifest: NOSIGNATURE
+		Xaeros_Minimap_24.3.0_Forge_1.20.jar              |Xaero's Minimap               |xaerominimap                  |24.3.0              |COMMON_SET|Manifest: NOSIGNATURE
+		pamhc2foodcore-1.20.4-1.0.5.jar                   |Pam's HarvestCraft 2 - Food Co|pamhc2foodcore                |1.0.5               |COMMON_SET|Manifest: NOSIGNATURE
+		gravestone-forge-1.20.1-1.0.24.jar                |Gravestone Mod                |gravestone                    |1.20.1-1.0.24       |COMMON_SET|Manifest: NOSIGNATURE
+		polymorph-forge-0.49.5+1.20.1.jar                 |Polymorph                     |polymorph                     |0.49.5+1.20.1       |COMMON_SET|Manifest: NOSIGNATURE
+		unloadedactivity-v0.6.3+1.20-1.20.1.jar           |Unloaded Activity             |unloaded_activity             |0.6.3               |COMMON_SET|Manifest: NOSIGNATURE
+		structurize-1.20.1-1.0.760-snapshot.jar           |Structurize                   |structurize                   |1.20.1-1.0.760-snaps|COMMON_SET|Manifest: NOSIGNATURE
+		cte_essentials-1.0.5.jar                          |CTE2 Essentials               |cte_essentials                |1.0.5               |COMMON_SET|Manifest: NOSIGNATURE
+		Library_of_Exile-1.20.1-1.6.12.jar                |Library of Exile              |library_of_exile              |1.6.12              |COMMON_SET|Manifest: NOSIGNATURE
+		showcaseitem-1.20.1-1.2.jar                       |Showcase Item                 |showcaseitem                  |1.20.1-1.2          |COMMON_SET|Manifest: NOSIGNATURE
+		Mine_and_lash-Compatibility-1.20.1-1.0.0.jar      |Mine and Slash Compatibility  |mns_compat                    |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		connectedglass-1.1.12-forge-mc1.20.1.jar          |Connected Glass               |connectedglass                |1.1.12              |COMMON_SET|Manifest: NOSIGNATURE
+		moremobvariants-forge+1.20.1-1.3.0.1.jar          |More Mob Variants             |moremobvariants               |1.3.0.1             |COMMON_SET|Manifest: NOSIGNATURE
+		RainShield-1.20.1-1.1.3.jar                       |Rain Shield                   |rainshield                    |1.1.3               |COMMON_SET|Manifest: NOSIGNATURE
+		PuzzlesLib-v8.1.24-1.20.1-Forge.jar               |Puzzles Lib                   |puzzleslib                    |8.1.24              |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		pottery-1.0.2-forge-mc1.20.1.jar                  |Pottery                       |pottery                       |1.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		FriendlyFire-Forge-1.20.1-18.0.7.jar              |FriendlyFire                  |friendlyfire                  |18.0.7              |COMMON_SET|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		mns-1.0.3-1.20-forge.jar                          |Moog's Nether Structures      |mns                           |1.0.3-1.20-forge    |COMMON_SET|Manifest: NOSIGNATURE
+		immersive_melodies-0.3.0+1.20.1-forge.jar         |Immersive Melodies            |immersive_melodies            |0.3.0+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		cosmeticarmorreworked-1.20.1-v1a.jar              |CosmeticArmorReworked         |cosmeticarmorreworked         |1.20.1-v1a          |COMMON_SET|Manifest: 5e:ed:25:99:e4:44:14:c0:dd:89:c1:a9:4c:10:b5:0d:e4:b1:52:50:45:82:13:d8:d0:32:89:67:56:57:01:53
+		step-1.20.1-1.2.2.jar                             |Step                          |step                          |1.2.2               |COMMON_SET|Manifest: NOSIGNATURE
+		vineclipper-1.0.0-forge.jar                       |vineclipper                   |vineclipper                   |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		xptome-1.20.1-2.2.1.jar                           |XP Tome                       |xpbook                        |2.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+		creativetabsearch-0.1.2.jar                       |Creative Tab Search           |creativetabsearch             |0.1.2               |ERROR     |Manifest: NOSIGNATURE
+		CarbonConfig-1.20-1.2.6.jar                       |Carbon Config Library         |carbonconfig                  |1.20-1.2.6          |COMMON_SET|Manifest: NOSIGNATURE
+		CompletionistsIndex-v8.0.0-1.20.1-Forge.jar       |Completionist's Index         |completionistsindex           |8.0.0               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		tetra-1.20.1-6.4.0.jar                            |tetra                         |tetra                         |6.4.0               |COMMON_SET|Manifest: NOSIGNATURE
+		tetranomicon-1.5.3-1.20.1.jar                     |Tetranomicon                  |tetranomicon                  |1.5.3-1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		Stellarity-v2-0e.jar                              |Stellarity                    |mr_stellarity                 |2.0d                |COMMON_SET|Manifest: NOSIGNATURE
+		weaponmaster_ydm-forge-1.20.1-4.2.3.jar           |YDM's Weapon Master           |weaponmaster_ydm              |4.2.3               |COMMON_SET|Manifest: NOSIGNATURE
+		kuma-api-forge-20.1.8+1.20.1.jar                  |KumaAPI                       |kuma_api                      |20.1.8              |COMMON_SET|Manifest: NOSIGNATURE
+		transmog-forge-1.3.0+1.20.jar                     |Transmog                      |transmog                      |1.3.0+1.20          |COMMON_SET|Manifest: NOSIGNATURE
+		YungsBetterWitchHuts-1.20-Forge-3.0.3.jar         |YUNG's Better Witch Huts      |betterwitchhuts               |1.20-Forge-3.0.3    |COMMON_SET|Manifest: NOSIGNATURE
+		global_packs-forge-1.19.4-1.16.2_forge.jar        |Global Packs                  |globalpacks                   |1.16.2_forge        |COMMON_SET|Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.7.jar                     |GeckoLib 4                    |geckolib                      |4.7                 |COMMON_SET|Manifest: NOSIGNATURE
+		beautify-2.0.2.jar                                |Beautify                      |beautify                      |2.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		decorativerailings 1.20.1 - v1.1 - Forge.jar      |Decorative Railings           |decorativerailings            |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		towntalk-1.20.1-1.1.0.jar                         |TownTalk                      |towntalk                      |1.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		extendedslabs-1.20.1-3.0.1.jar                    |Extended Slabs +              |extendedslabs                 |3.0.1               |COMMON_SET|Manifest: NOSIGNATURE
+		Floral Enchantment-1.20.1-1.4.3.jar               |Floral Enchantment            |floralench                    |1.20.1-1.4.3        |COMMON_SET|Manifest: NOSIGNATURE
+		morediscs-1.20.1-33.1-forge.jar                   |MoreDiscs                     |morediscs                     |1.20.1-33.1-forge   |COMMON_SET|Manifest: NOSIGNATURE
+		invis-item-frame-1.jar                            |Invis item frame              |mr_invis_itemframe            |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar    |YUNG's Better Ocean Monuments |betteroceanmonuments          |1.20-Forge-3.0.4    |COMMON_SET|Manifest: NOSIGNATURE
+		connectivity-1.20.1-6.5.jar                       |Connectivity Mod              |connectivity                  |1.20.1-6.5          |COMMON_SET|Manifest: NOSIGNATURE
+		dynamiclights-1.20.1.2.jar                        |Dynamic Lights                |dynamiclights                 |1.20.1.2            |COMMON_SET|Manifest: NOSIGNATURE
+		sophisticatedcore-1.20.1-0.7.2.756.jar            |Sophisticated Core            |sophisticatedcore             |0.7.2.756           |COMMON_SET|Manifest: NOSIGNATURE
+		InsaneLib-1.13.5-mc1.20.1.jar                     |InsaneLib                     |insanelib                     |1.13.5              |COMMON_SET|Manifest: NOSIGNATURE
+		villagernames-1.20.1-8.1.jar                      |Villager Names                |villagernames                 |8.1                 |COMMON_SET|Manifest: NOSIGNATURE
+		XaerosWorldMap_1.38.8_Forge_1.20.jar              |Xaero's World Map             |xaeroworldmap                 |1.38.8              |COMMON_SET|Manifest: NOSIGNATURE
+		cookingforblockheads-forge-1.20.1-16.0.9.jar      |CookingForBlockheads          |cookingforblockheads          |16.0.9              |COMMON_SET|Manifest: NOSIGNATURE
+		Controlling-forge-1.20.1-12.0.2.jar               |Controlling                   |controlling                   |12.0.2              |COMMON_SET|Manifest: NOSIGNATURE
+		citadel-2.6.0-1.20.1.jar                          |Citadel                       |citadel                       |2.6.0               |COMMON_SET|Manifest: NOSIGNATURE
+		alexsmobs-1.22.9.jar                              |Alex's Mobs                   |alexsmobs                     |1.22.9              |COMMON_SET|Manifest: NOSIGNATURE
+		lootintegrations-1.20.1-3.7.jar                   |Lootintegrations mod          |lootintegrations              |1.20.1-3.7          |COMMON_SET|Manifest: NOSIGNATURE
+		CTE2ModpackArmors-1.0.3.jar                       |CTE2 Modpack Armors           |cte2modpackarmors             |1.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |COMMON_SET|Manifest: NOSIGNATURE
+		void_lib-1.1.5.jar                                |Void Lib                      |void_lib                      |1.1.5               |COMMON_SET|Manifest: NOSIGNATURE
+		fastconfigapi-2.1.0.jar                           |Fast Config API               |fastconfigapi                 |2.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.20.1-20.2.13.jar                |Bookshelf                     |bookshelf                     |20.2.13             |COMMON_SET|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		AchievementOptimizer-1.20.1-1.0.5.jar             |AchievementOptimizer          |achiopt                       |1.0.5               |COMMON_SET|Manifest: NOSIGNATURE
+		StickerFrames-1.20.1-1.0.1.jar                    |Sticker Frames                |stickerframes                 |1.0.1               |COMMON_SET|Manifest: NOSIGNATURE
+		jeed-1.20-2.2.2.jar                               |Just Enough Effects Descriptio|jeed                          |1.20-2.2.2          |COMMON_SET|Manifest: NOSIGNATURE
+		damagenumbers-1.4.0-forge.jar                     |Damage Numbers                |damagenumbers                 |1.4.0-forge         |COMMON_SET|Manifest: NOSIGNATURE
+		fasterportalsforge-1.0.4.jar                      |Faster Portals                |fasterportals                 |1.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+		carryon-forge-1.20.1-2.1.2.7.jar                  |Carry On                      |carryon                       |2.1.2.7             |COMMON_SET|Manifest: NOSIGNATURE
+		dummmmmmy-1.20-2.0.2.jar                          |MmmMmmMmmmmm                  |dummmmmmy                     |1.20-2.0.2          |COMMON_SET|Manifest: NOSIGNATURE
+		l2damagetracker-0.3.9.jar                         |L2 Damage Tracker             |l2damagetracker               |0.3.9               |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-addon-compat-forge-1.4.2.jar               |[Let's Do Addon] Compat       |letsdoaddon_compat            |1.4.2               |COMMON_SET|Manifest: NOSIGNATURE
+		DiagonalWalls-v8.0.3-1.20.1-Forge.jar             |Diagonal Walls                |diagonalwalls                 |8.0.3               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		AirHop-v8.0.2-1.20.1-Forge.jar                    |Air Hop                       |airhop                        |8.0.2               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		diagonalblocks-forge-8.0.5.jar                    |Diagonal Blocks               |diagonalblocks                |8.0.5               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		[forge]slu_360.1.20.1.jar                         |souls like universe           |slu                           |360.1.20.1          |COMMON_SET|Manifest: NOSIGNATURE
+		FarmersDelight-1.20.1-1.2.5.jar                   |Farmer's Delight              |farmersdelight                |1.20.1-1.2.5        |COMMON_SET|Manifest: NOSIGNATURE
+		customizableelytra-forge-2.1.2+1.20.jar           |Customizable Elytra           |customizableelytra            |2.1.2+1.20          |COMMON_SET|Manifest: NOSIGNATURE
+		curious_armor_stands-1.20-5.1.0.jar               |Curious Armor Stands          |curious_armor_stands          |1.20-5.1.0          |COMMON_SET|Manifest: NOSIGNATURE
+		ProjectRed-1.20.1-4.20.0-beta+5-core.jar          |ProjectRed Core               |projectred_core               |4.20.0-beta+5       |COMMON_SET|Manifest: NOSIGNATURE
+		ProjectRed-1.20.1-4.20.0-beta+5-integration.jar   |ProjectRed Integration        |projectred_integration        |4.20.0-beta+5       |COMMON_SET|Manifest: NOSIGNATURE
+		ProjectRed-1.20.1-4.20.0-beta+5-expansion.jar     |ProjectRed Expansion          |projectred_expansion          |4.20.0-beta+5       |COMMON_SET|Manifest: NOSIGNATURE
+		ProjectRed-1.20.1-4.20.0-beta+5-transmission.jar  |ProjectRed Transmission       |projectred_transmission       |4.20.0-beta+5       |COMMON_SET|Manifest: NOSIGNATURE
+		ProjectRed-1.20.1-4.20.0-beta+5-exploration.jar   |ProjectRed Exploration        |projectred_exploration        |4.20.0-beta+5       |COMMON_SET|Manifest: NOSIGNATURE
+		ProjectRed-1.20.1-4.20.0-beta+5-fabrication.jar   |ProjectRed Fabrication        |projectred_fabrication        |4.20.0-beta+5       |COMMON_SET|Manifest: NOSIGNATURE
+		ProjectRed-1.20.1-4.20.0-beta+5-illumination.jar  |ProjectRed Illumination       |projectred_illumination       |4.20.0-beta+5       |COMMON_SET|Manifest: NOSIGNATURE
+		skinned_lanterns-1.20.1-1.3.5.jar                 |Skinned Lanterns              |skinnedlanterns               |1.20.1-1.3.5        |COMMON_SET|Manifest: NOSIGNATURE
+		DiagonalWindows-v8.1.4-1.20.1-Forge.jar           |Diagonal Windows              |diagonalwindows               |8.1.4               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		HangGlider-v8.0.1-1.20.1-Forge.jar                |Hang Glider                   |hangglider                    |8.0.1               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		SlotCycler-v8.0.1-1.20.1-Forge.jar                |Slot Cycler                   |slotcycler                    |8.0.1               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		lionfishapi-1.9.jar                               |LionfishAPI                   |lionfishapi                   |1.9                 |COMMON_SET|Manifest: NOSIGNATURE
+		pamhc2foodextended-1.20.4-1.0.1.jar               |Pam's HarvestCraft 2 - Food Ex|pamhc2foodextended            |0.0NONE             |COMMON_SET|Manifest: NOSIGNATURE
+		Pehkui_Resizer_V3.5.4___1.20.1.jar                |Pehkui Resizer                |pehkui_resizer                |3.5.4               |COMMON_SET|Manifest: NOSIGNATURE
+		L_Enders_Cataclysm-2.17 - 1.20.1.jar              |Cataclysm Mod                 |cataclysm                     |2.17                |COMMON_SET|Manifest: NOSIGNATURE
+		Patchouli-1.20.1-84-FORGE.jar                     |Patchouli                     |patchouli                     |1.20.1-84-FORGE     |COMMON_SET|Manifest: NOSIGNATURE
+		blockui-1.20.1-1.0.186-beta.jar                   |UI Library Mod                |blockui                       |1.20.1-1.0.186-beta |COMMON_SET|Manifest: NOSIGNATURE
+		multipiston-1.20-1.2.43-RELEASE.jar               |Multi-Piston                  |multipiston                   |1.20-1.2.43-RELEASE |COMMON_SET|Manifest: NOSIGNATURE
+		collective-1.20.1-7.87.jar                        |Collective                    |collective                    |7.87                |COMMON_SET|Manifest: NOSIGNATURE
+		camera-forge-1.20.1-1.0.19.jar                    |Camera Mod                    |camera                        |1.20.1-1.0.19       |COMMON_SET|Manifest: NOSIGNATURE
+		time-in-a-bottle-4.0.4-mc1.20.1.jar               |Time In A Bottle              |tiab                          |4.0.4-mc1.20.1      |COMMON_SET|Manifest: NOSIGNATURE
+		dotbe-1.5.7.jar                                   |DawnOfTimeBuilder             |dawnoftimebuilder             |1.5.7               |COMMON_SET|Manifest: NOSIGNATURE
+		YungsBetterStrongholds-1.20-Forge-4.0.3.jar       |YUNG's Better Strongholds     |betterstrongholds             |1.20-Forge-4.0.3    |COMMON_SET|Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20.1-2.1.29.jar            |Resourceful Lib               |resourcefullib                |2.1.29              |COMMON_SET|Manifest: NOSIGNATURE
+		Display v.1.1 Forge 1.20.1.jar                    |Display                       |display                       |1.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		BridgingMod-2.5.1+1.20.1.forge-release.jar        |Bridging Mod                  |bridgingmod                   |2.5.1+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		InventoryProfilesNext-forge-1.20-1.10.14.jar      |Inventory Profiles Next       |inventoryprofilesnext         |1.10.14             |COMMON_SET|Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-API-forge-1.2.15-forge.jar                 |[Let's Do] API                |doapi                         |1.2.15              |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-vinery-forge-1.4.28.jar                    |[Let's Do] Vinery             |vinery                        |1.4.28              |COMMON_SET|Manifest: NOSIGNATURE
+		dynamictrim-1.4.1-forge+1.20.1.jar                |DynamicTrim                   |dynamictrim                   |1.4.1               |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-herbalbrews-forge-1.0.8.jar                |[Let's Do] HerbalBrews        |herbalbrews                   |1.0.8               |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-furniture-forge-1.0.3.jar                  |[Let's Do] Furniture          |furniture                     |1.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-farm_and_charm-forge-1.0.4.jar             |[Let's Do] Farm & Charm       |farm_and_charm                |1.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+		structurecredits-2.2.1.jar                        |Structure Credits             |structurecredits              |2.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+		ipla-1.20.1-forge-1.3.jar                         |Ipla                          |ipla                          |1.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		auto_crouch-mc1.20-1.0.0-build.6.jar              |Auto Crouch                   |auto_crouch                   |1.0.0               |ERROR     |Manifest: NOSIGNATURE
+		letsdo-candlelight-forge-2.0.2.jar                |[Let's Do] Candlelight        |candlelight                   |2.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		findme-3.2.1-forge.jar                            |FindMe                        |findme                        |3.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-bakery-forge-2.0.3.jar                     |[Let's Do] Bakery             |bakery                        |2.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		letsdo-brewery-forge-2.0.3.jar                    |[Let's Do] Brewery            |brewery                       |2.0.3               |COMMON_SET|Manifest: NOSIGNATURE
+		cupboard-1.20.1-2.7.jar                           |Cupboard utilities            |cupboard                      |1.20.1-2.7          |COMMON_SET|Manifest: NOSIGNATURE
+		cherishedworlds-forge-6.1.6+1.20.1.jar            |Cherished Worlds              |cherishedworlds               |6.1.6+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		refurbished_furniture-forge-1.20.1-1.0.9.jar      |MrCrayfish's Furniture Mod: Re|refurbished_furniture         |1.0.9               |COMMON_SET|Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		trashcans-1.0.18b-forge-mc1.20.jar                |Trash Cans                    |trashcans                     |1.0.18b             |COMMON_SET|Manifest: NOSIGNATURE
+		chunkloaders-1.2.8a-forge-mc1.20.1.jar            |Chunk Loaders                 |chunkloaders                  |1.2.8a              |COMMON_SET|Manifest: NOSIGNATURE
+		monolib-forge-1.20.1-1.4.1.jar                    |MonoLib                       |monolib                       |1.4.1               |COMMON_SET|Manifest: NOSIGNATURE
+		longer_following_time-merged-1.20.1-1.0.0.jar     |Longer Following Time         |longer_following_time         |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		Quad-1.2.5+1.20.4-Forge.jar                       |Quad                          |quad                          |1.2.5               |COMMON_SET|Manifest: NOSIGNATURE
+		MoreChestVariants-1.5.6+1.20.2-Forge.jar          |More Chest Variants           |lolmcv                        |1.5.6               |COMMON_SET|Manifest: NOSIGNATURE
+		inventoryessentials-forge-1.20.1-8.2.6.jar        |Inventory Essentials          |inventoryessentials           |8.2.6               |COMMON_SET|Manifest: NOSIGNATURE
+		framework-forge-1.20.1-0.7.12.jar                 |Framework                     |framework                     |0.7.12              |COMMON_SET|Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		observable-4.4.2.jar                              |Observable                    |observable                    |4.4.2               |COMMON_SET|Manifest: NOSIGNATURE
+		easy_mob_farm-forge-1.20.1-8.2.0.jar              |Easy Mob Farm                 |easy_mob_farm                 |8.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		xtraarrows-3.0.10.1-forge-mc1.20.1.jar            |Xtra Arrows 3                 |xtraarrows                    |3.0.10.1            |COMMON_SET|Manifest: NOSIGNATURE
+		trashslot-forge-1.20-15.1.0.jar                   |TrashSlot                     |trashslot                     |15.1.0              |COMMON_SET|Manifest: NOSIGNATURE
+		lpcore-0.5.5.jar                                  |Loading Profiler              |lpcore                        |0.5.5               |COMMON_SET|Manifest: NOSIGNATURE
+		spyglass_of_curios-forge-1.20.1-1.7.2.jar         |饰品望远镜                         |spyglass_of_curios            |1.7.2               |COMMON_SET|Manifest: NOSIGNATURE
+		pamhc2trees-1.20-1.0.2.jar                        |Pam's HarvestCraft 2 - Trees  |pamhc2trees                   |1.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		sophisticatedstorage-1.20.1-0.10.48.942.jar       |Sophisticated Storage         |sophisticatedstorage          |0.10.48.942         |COMMON_SET|Manifest: NOSIGNATURE
+		quickstack-1.20.1-1.jar                           |QuickStack                    |quickstack                    |1.20.1-1            |COMMON_SET|Manifest: NOSIGNATURE
+		DynamicTreesPHC2-1.20.1-1.3.1.jar                 |Dynamic Trees for PHC2        |dtphc2                        |1.20.1-1.3.1        |COMMON_SET|Manifest: NOSIGNATURE
+		EasyMagic-v8.0.1-1.20.1-Forge.jar                 |Easy Magic                    |easymagic                     |8.0.1               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Pretty Rain-1.20.1-Forge-1.0.8.jar                |Pretty Rain                   |particlerain                  |1.0.8               |COMMON_SET|Manifest: NOSIGNATURE
+		dyenamics-1.20.1-3.2.0.jar                        |Dyenamics                     |dyenamics                     |1.20.1-3.2.0        |COMMON_SET|Manifest: NOSIGNATURE
+		common-networking-forge-1.0.5-1.20.1.jar          |Common Networking             |commonnetworking              |1.0.5-1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		Ping-Wheel-1.10.0-forge-1.20.1.jar                |Ping Wheel                    |pingwheel                     |1.10.0              |COMMON_SET|Manifest: NOSIGNATURE
+		map_atlases-1.20-6.0.9.jar                        |Map Atlases                   |map_atlases                   |1.20-6.0.9          |COMMON_SET|Manifest: NOSIGNATURE
+		l2complements-2.4.41.jar                          |L2 Complements                |l2complements                 |2.4.41              |COMMON_SET|Manifest: NOSIGNATURE
+		weathersettings-1.20.1-2.1.jar                    |weathersettings mod           |weathersettings               |1.20.1-2.1          |COMMON_SET|Manifest: NOSIGNATURE
+		minecards-1.0.4_Forge_MC1.20.1-1.20.4.jar         |Minecards                     |minecards                     |1.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+		InvMove-1.20-0.8.4-Forge.jar                      |InvMove                       |invmove                       |0.8.4               |COMMON_SET|Manifest: NOSIGNATURE
+		waystones-forge-1.20-14.1.6.jar                   |Waystones                     |waystones                     |14.1.6              |COMMON_SET|Manifest: NOSIGNATURE
+		dtvinery-1.20.1-forge-1.1.jar                     |Dynamic Trees for Vinery      |dtvinery                      |1.1                 |COMMON_SET|Manifest: NOSIGNATURE
+		comforts-forge-6.4.0+1.20.1.jar                   |Comforts                      |comforts                      |6.4.0+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		armorstandshiftswap-forge-1.20.1-1.0.0.jar        |Armor Stand Shift Swap        |armorstandshiftswap           |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		configured-forge-1.20.1-2.2.3.jar                 |Configured                    |configured                    |2.2.3               |COMMON_SET|Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		WorldEditCUI-1.20+01.jar                          |WorldEditCUI                  |worldeditcui                  |1.20+01             |COMMON_SET|Manifest: NOSIGNATURE
+		YungsBetterDesertTemples-1.20-Forge-3.0.3.jar     |YUNG's Better Desert Temples  |betterdeserttemples           |1.20-Forge-3.0.3    |COMMON_SET|Manifest: NOSIGNATURE
+		ExplorersCompass-1.20.1-1.3.3-forge.jar           |Explorer's Compass            |explorerscompass              |1.20.1-1.3.3-forge  |COMMON_SET|Manifest: NOSIGNATURE
+		Terralith_1.20.x_v2.5.4.jar                       |Terralith                     |terralith                     |2.5.4               |COMMON_SET|Manifest: NOSIGNATURE
+		DynamicTreesTerralith-1.20.1-1.2.4.jar            |Dynamic Trees for Terralith   |dtterralith                   |1.20.1-1.2.4        |COMMON_SET|Manifest: NOSIGNATURE
+		blueprint-1.20.1-7.1.0.jar                        |Blueprint                     |blueprint                     |7.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		gallery-1.20.1-1.0.1.jar                          |Gallery                       |gallery                       |1.0.1               |COMMON_SET|Manifest: NOSIGNATURE
+		enhanced_boss_bars-1.20.1-1.0.0.jar               |Enhanced Boss Bars            |enhanced_boss_bars            |1.20.1-1.0.0        |ERROR     |Manifest: NOSIGNATURE
+		sereneseasonsphc2crops-1.20.1-1.0.0.jar           |Serene Seasons - Pam's Harvest|sereneseasonsphc2crops        |1.20.1-1.0.0        |COMMON_SET|Manifest: NOSIGNATURE
+		banner-flags-2.3.jar                              |Banner Flags                  |mr_banner_flags               |2.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		TravelersTitles-1.20-Forge-4.0.2.jar              |Traveler's Titles             |travelerstitles               |1.20-Forge-4.0.2    |COMMON_SET|Manifest: NOSIGNATURE
+		dash-1.20.1-1.1.1.jar                             |Dash                          |dash                          |1.1.1               |COMMON_SET|Manifest: NOSIGNATURE
+		nyfsspiders-forge-1.20.1-2.1.1.jar                |Nyf's Spiders                 |nyfsspiders                   |2.1.1               |COMMON_SET|Manifest: NOSIGNATURE
+		lootintegrations_vanilla-1.3.jar                  |lootintegrations_vanilla mod  |lootintegrations_vanilla      |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		simplyswords-forge-1.56.0-1.20.1.jar              |Simply Swords                 |simplyswords                  |1.56.0-1.20.1       |COMMON_SET|Manifest: NOSIGNATURE
+		libIPN-forge-1.20-4.0.2.jar                       |libIPN                        |libipn                        |4.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		moonlight-1.20-2.13.22-forge.jar                  |Moonlight Library             |moonlight                     |1.20-2.13.22        |COMMON_SET|Manifest: NOSIGNATURE
+		labels-1.20-1.20.1.jar                            |Labels                        |labels                        |1.20-1.20.1         |COMMON_SET|Manifest: NOSIGNATURE
+		endermanoverhaul-forge-1.20.1-1.0.4.jar           |Enderman Overhaul             |endermanoverhaul              |1.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+		ToolBelt-1.20.1-1.20.01.jar                       |Tool Belt                     |toolbelt                      |1.20.01             |COMMON_SET|Manifest: NOSIGNATURE
+		RegionsUnexploredForge-0.5.6+1.20.1.jar           |Regions Unexplored            |regions_unexplored            |0.5.6               |COMMON_SET|Manifest: NOSIGNATURE
+		DynamicTreesRU-1.20.1-1.0.0-BETA01.jar            |Dynamic Trees for Regions Unex|dtru                          |1.20.1-1.0.0-BETA01 |COMMON_SET|Manifest: NOSIGNATURE
+		Colored Water-1.20.1-1.3.8.jar                    |Colored Water                 |colored_water                 |1.20.1-1.3.8        |COMMON_SET|Manifest: NOSIGNATURE
+		MagnumTorch-v8.0.2-1.20.1-Forge.jar               |Magnum Torch                  |magnumtorch                   |8.0.2               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		mixinsquared-forge-0.2.0.jar                      |MixinSquared                  |mixinsquared                  |0.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		Jade-1.20.1-Forge-11.12.2.jar                     |Jade                          |jade                          |11.12.2+forge       |COMMON_SET|Manifest: NOSIGNATURE
+		TaxTreeGiant+M.1.20.1+ForM.1.1.0.jar              |Tax' Tree Giant               |taxtg                         |1.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		archers_paradox-1.20.1-5.0.0.17.jar               |Archer's Paradox              |archers_paradox               |5.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		modulargolems-2.4.42.jar                          |Modular Golems                |modulargolems                 |2.4.42              |COMMON_SET|Manifest: NOSIGNATURE
+		l2archery-2.4.15.jar                              |L2 Archery                    |l2archery                     |2.4.15              |COMMON_SET|Manifest: NOSIGNATURE
+		PassiveSkillTree-1.20.1-BETA-0.6.14a-all.jar      |Passive Skill Tree            |skilltree                     |0.6.14a             |COMMON_SET|Manifest: NOSIGNATURE
+		lootintegrations_yungs-1.3.jar                    |lootintegrations_yungs mod    |lootintegrations_yungs        |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		DynamicTreesAlexsMobs-1.20.1-1.0.0.jar            |Dynamic Trees for Alex's Mobs |dtalexsmobs                   |1.20.1-1.0.0        |COMMON_SET|Manifest: NOSIGNATURE
+		Iceberg-1.20.1-forge-1.1.25.jar                   |Iceberg                       |iceberg                       |1.1.25              |COMMON_SET|Manifest: NOSIGNATURE
+		mutil-1.20.1-6.1.1.jar                            |mutil                         |mutil                         |6.1.1               |COMMON_SET|Manifest: NOSIGNATURE
+		mes-1.3.4-1.20-forge.jar                          |Moog's End Structures         |mes                           |1.3.4-1.20-forge    |COMMON_SET|Manifest: NOSIGNATURE
+		more_beautiful_torches-merged-1.20.1-3.0.0.jar    |More Beautiful Torches!       |more_beautiful_torches        |3.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		ParCool-1.20.1-3.3.0.2.jar                        |ParCool!                      |parcool                       |3.3.0.2             |COMMON_SET|Manifest: NOSIGNATURE
+		mobile-trashcan-1.2.0.jar                         |Mobile Trashcan               |mobile_trash                  |1.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		labellingcontainers-1.8.0.jar                     |Labelling Containers          |labellingcontainers           |1.8.0               |COMMON_SET|Manifest: NOSIGNATURE
+		deco-storage-forge-1.20.1-2.0810.jar              |Decorative Storage            |decorative_storage            |2.0810              |COMMON_SET|Manifest: NOSIGNATURE
+		DiagonalFences-v8.1.4-1.20.1-Forge.jar            |Diagonal Fences               |diagonalfences                |8.1.4               |COMMON_SET|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		randomvillagenames-1.20.1-3.7.jar                 |Random Village Names          |randomvillagenames            |3.7                 |COMMON_SET|Manifest: NOSIGNATURE
+		MEED-1.20.1-5.1.jar                               |Moderately Enough Effect Descr|moderately_enough_effect_desc |3.3.0               |COMMON_SET|Manifest: NOSIGNATURE
+		minecolonies-1.20.1-1.1.726-snapshot.jar          |MineColonies                  |minecolonies                  |1.20.1-1.1.726-snaps|COMMON_SET|Manifest: NOSIGNATURE
+		MineColonies_Tweaks-1.20.1-2.37.jar               |Tweaks addon for MineColonies |minecolonies_tweaks           |2.37                |COMMON_SET|Manifest: NOSIGNATURE
+		MineColonies_Compatibility-1.20.1-2.44.jar        |Compatibility addon for MineCo|minecolonies_compatibility    |2.44                |COMMON_SET|Manifest: NOSIGNATURE
+		mvs-4.1.4-1.20-forge.jar                          |Moog's Voyager Structures     |mvs                           |4.1.4-1.20-forge    |COMMON_SET|Manifest: NOSIGNATURE
+		creeperoverhaul-3.0.2-forge.jar                   |Creeper Overhaul              |creeperoverhaul               |3.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |COMMON_SET|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		YetAnotherConfigLib-3.4.2+1.20.1-forge.jar        |YetAnotherConfigLib           |yet_another_config_lib_v3     |3.4.2+1.20.1-forge  |COMMON_SET|Manifest: NOSIGNATURE
+		apexcore-1.20.1-10.0.0.jar                        |ApexCore                      |apexcore                      |10.0.0              |COMMON_SET|Manifest: NOSIGNATURE
+		fantasyfurniture-1.20.1-9.0.0.jar                 |Fantasy's Furniture           |fantasyfurniture              |9.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+		l2itemselector-0.1.9.jar                          |L2 Item Selector              |l2itemselector                |0.1.9               |COMMON_SET|Manifest: NOSIGNATURE
+		BetterF3-7.0.2-Forge-1.20.1.jar                   |BetterF3                      |betterf3                      |7.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		bushierflowers-0.0.3-1.20.1.jar                   |Bushier Flowers               |bushierflowers                |0.0.3-1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		lootintegrations_cataclysm-1.0.jar                |lootintegrations_cataclysm mod|lootintegrations_cataclysm    |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		overloadedarmorbar-1.20.1-1.jar                   |Overloaded Armor Bar          |overloadedarmorbar            |1.20.1-1            |COMMON_SET|Manifest: NOSIGNATURE
+		skinrestorer-2.1.0+1.20-forge.jar                 |SkinRestorer                  |skinrestorer                  |2.1.0+1.20-forge    |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 95892559-1853-40c4-96c4-e4baa8d09b0a
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.29
