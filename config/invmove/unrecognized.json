@@ -1,7 +1,12 @@
 {
   "allowMovement": {
     "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
-    "net.minecraft.client.gui.screens.PauseScreen": true
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "xaero.map.gui.GuiMap": true,
+    "xaero.map.gui.GuiWorldMapSettings": true,
+    "xaero.common.gui.GuiMinimapMain": true,
+    "xaero.common.gui.GuiEditMode": true,
+    "xaero.common.gui.GuiChoosePreset": true
   },
   "hideBackground": {}
 }
