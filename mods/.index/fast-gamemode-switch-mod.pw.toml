@@ -1,0 +1,16 @@
+filename = 'fast-gamemode-switch-mod-v1.20.1.jar'
+name = 'Fast Gamemode Switch Mod'
+side = 'client'
+x-extremelauncher-loaders = [ 'forge' ]
+x-extremelauncher-mc-versions = [ '1.20.1' ]
+x-extremelauncher-release-type = 'release'
+
+[download]
+hash = '420f0d56defbafad255ff15122e91ed3d37d0e26965ab307838c630f8b0d7064ef0da1005e4e8e95021f352cf8fb4fe70a1c337e648e1fecc6ffbe6a5de9b3a2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Lrn5AhQ8/versions/eH1L3Coj/fast-gamemode-switch-mod-v1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'Lrn5AhQ8'
+version = 'eH1L3Coj'
