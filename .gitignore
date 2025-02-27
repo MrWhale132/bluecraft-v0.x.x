@@ -4,7 +4,8 @@ modernfix
 mod_data
 installed_mods
 
-saves
-resourcepacks
+saves/*
+!saves/world
+
 trees
 patchouli_books

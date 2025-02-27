@@ -7,8 +7,6 @@
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
-
-["bosses Common settings"]
 	#custombossbar(on/off)
 	"custombossbar(on/off)" = true
 	#BossMusic(on/off)
@@ -16,9 +14,6 @@
 	#BossMusicVolume(denominator)
 	#Range: 1 ~ 1000000
 	BossMusicVolume = 1
-	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
-	#Range: 0 ~ 200
-	ReturnHome = 20
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -53,23 +48,17 @@
 	#Void Core's Cooldown
 	#Range: 0 ~ 1000000
 	VoidCoreCooldown = 160
-	#Sandstorm's cooldown
-	#Range: 0 ~ 1000000
-	Sandstormcooldown = 300
 	#Soul Render's Timer
 	#Range: 0 ~ 1000000
 	SoulRenderCooldown = 100
-	#Gauntlet of Maelstrom's Timer
+	#Sandstorm's Timer
 	#Range: 0 ~ 1000000
-	gauntletofMaelstromCooldown = 180
-	#The Immolator's Timer
-	#Range: 0 ~ 1000000
-	immolatorCooldown = 300
+	SandstormTimer = 160
 
 [Block]
 	#Cursed Tombstone Summon cooldown Minute
-	#Range: 1 ~ 300
-	"Cursed Tombstone Summon cooldown Minute" = 1
+	#Range: 3 ~ 300
+	"Cursed Tombstone Summon cooldown Minute" = 3
 
 ["Entity damage"]
 	#Void Rune's Damage
@@ -129,15 +118,6 @@
 	#Phantom Halberd's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Phantom Halberd Damage" = 12.0
-	#Cursed Sandstorm's Damage
-	#Range: 0.0 ~ 1000000.0
-	"Cursed Sandstorm Damage" = 6.0
-	#Flame jet's Damage
-	#Range: 0.0 ~ 1000000.0
-	"Flame Jet Damage" = 7.0
-	#Flare Bomb's Damage
-	#Range: 0.0 ~ 1000000.0
-	"Flare Bomb Damage" = 7.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
@@ -149,9 +129,6 @@
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 22.0
-	#EnderGuardian's DamageTime
-	#Range: 0 ~ 100
-	EnderGuardianDamageTime = 30
 	#EnderGuardian's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianNatureHealing = 10.0
@@ -210,9 +187,6 @@
 	#Monstrosity's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageCap = 22.0
-	#Monstrosity's DamageTime
-	#Range: 0 ~ 100
-	MonstrosityDamageTime = 10
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage
@@ -221,8 +195,6 @@
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 18.0
-	#Monstrosity's block breaking ignore the MobGriefing
-	monstrosityBlockBreaking = true
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -256,9 +228,6 @@
 	#Ignis's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageCap = 20.0
-	#Ignis's DamageTime
-	#Range: 0 ~ 100
-	IgnisDamageTime = 15
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
 
@@ -303,9 +272,6 @@
 	#Harbinger's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	"The Harbinger DamageCap" = 22.0
-	#Harbinger's DamageTime
-	#Range: 0 ~ 100
-	"The Harbinger DamageTime" = 12
 	#Harbinger's lasers can light a fire in MobGriefing
 	"The Harbinger Light A Fire" = true
 	#The Harbinger's charge attack Hp Damage
@@ -340,9 +306,6 @@
 	#Leviathan's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageCap = 20.0
-	#Leviathan's DamageTime
-	#Range: 0 ~ 100
-	"Leviathan DamageTime" = 15
 	#Leviathan's block breaking ignore the MobGriefing
 	LeviathanBlockBreaking = true
 	#Leviathan Immune Out of Water
@@ -363,11 +326,6 @@
 	#Modern Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	ModernRemnantDamageMultiplier = 1.0
-
-["Netherite Ministrosity"]
-	#Ministrosity's Health Multiplier
-	#Range: 0.0 ~ 1000000.0
-	MinistrosityHealthMultiplier = 1.0
 
 ["Amethyst Crab"]
 	#Amethyst Crab's Health Multiplier
@@ -396,9 +354,6 @@
 	#Ancient Remnant's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantCap = 21.0
-	#Ancient Remnant's DamageTime
-	#Range: 0 ~ 100
-	"Ancient Remnant DamageTime" = 12
 	#Ancient Remnant's block breaking ignore the MobGriefing
 	AncientRemnantBlockBreaking = true
 	#Remnant's Charge Hp Damage
@@ -467,9 +422,6 @@
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	MaledictusDamageCap = 20.0
-	#Maledictus's DamageTime
-	#Range: 0 ~ 100
-	"Maledictus DamageTime" = 30
 	#Maledictus's melee Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Maledictus's melee Hp Damage" = 0.05
