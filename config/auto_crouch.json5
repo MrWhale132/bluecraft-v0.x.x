@@ -1,0 +1,10 @@
+{
+	"mainConfig": {
+		"EnableGUIs": true,
+		"EnableTab": true,
+		"EnableChat": true
+	},
+	"screenConfig": {
+		"EnabledScreens": { }
+	}
+}

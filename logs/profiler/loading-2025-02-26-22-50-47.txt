@@ -1,0 +1,345 @@
+Summary:
+
+Game takes 32 seconds to bootstrap
+ 3. Mod Scanning: 2,516 ms
+ 5. Transformer Class Loader Working: 10,023 ms
+ 8. Loading User / Options: 2,152 ms
+11. Constructing Mods: 3,667 ms
+15. Loading Registries: 6,486 ms
+--------------------
+Reload Manager takes 58 seconds, loading 77 tasks
+Tasks are processed in parallel using multiple threads.
+- ModelManager: 42 seconds
+- ClientModLoader: 15 seconds
+Off thread utilization: 141.41%
+--------------------
+Mods use 11 seconds to initialize
+Mod init happens in parallel as part of Game Bootstrap, in stage <Constructing Mods> ~ <Loading Registries>
+Mods use 17 seconds to load
+Mod init takes 39.40 seconds CPU time. Thread utilization: 348.55%
+- framedblocks: 3,231 ms
+- minecolonies: 2,973 ms
+- epicfight: 1,653 ms
+- blockrunner: 1,632 ms
+- worldedit: 1,575 ms
+- slu: 1,483 ms
+- library_of_exile: 1,479 ms
+- mmorpg: 1,465 ms
+- dynamictrees: 1,057 ms
+- cataclysm: 1,020 ms
+--------------------
+Model Load Time per Stage:
+Found 163 packs
+Loaded 51,087 model files with total size of 80,025 KB
+Baked 152774 models
+- [forge]slu_360.1.20.1.jar: 19,914 KB
+- letsdo-vinery-forge-1.4.28.jar: 10,311 KB
+- fantasyfurniture-1.20.1-9.0.0.jar: 5,548 KB
+- dyenamicsandfriends-1.20.1-1.9.0.jar: 3,500 KB
+- dotbe-1.5.7.jar: 2,785 KB
+- letsdo-candlelight-forge-2.0.2.jar: 2,539 KB
+- deco-storage-forge-1.20.1-2.0810.jar: 2,087 KB
+- extendedslabs-1.20.1-3.0.1.jar: 1,983 KB
+- minecolonies-1.20.1-1.1.726-snapshot.jar: 1,899 KB
+- domum_ornamentum-1.20.1-1.0.282-snapshot-universal.jar: 1,847 KB
+- vanilla: 1,714 KB
+- decorativeentities-1.20.1-1.1-Forge.jar: 1,690 KB
+- decorativerailings 1.20.1 - v1.1 - Forge.jar: 1,611 KB
+- refurbished_furniture-forge-1.20.1-1.0.9.jar: 1,606 KB
+- RegionsUnexploredForge-0.5.6+1.20.1.jar: 1,496 KB
+- beautify-2.0.2.jar: 1,346 KB
+- [1.20.1]+Simply+Ceramics+v1.0.0+(Forge).jar: 1,212 KB
+- letsdo-farm_and_charm-forge-1.0.4.jar: 1,157 KB
+- MushroomQuest-1.20.1-v4.1.2.jar: 1,114 KB
+- letsdo-furniture-forge-1.0.3.jar: 1,097 KB
+------------------------------------------------------------
+
+Details:
+
+Game takes 32 seconds to bootstrap
+ 1. Services Initializing: 3 ms
+ 2. Services Loading: 62 ms
+ 3. Mod Scanning: 2,516 ms
+ 4. Launch Plugin Working: 394 ms
+ 5. Transformer Class Loader Working: 10,023 ms
+ 6. Client Early Initialization: 1,276 ms
+ 7. Vanilla Bootstrap Start: 693 ms
+ 8. Loading User / Options: 2,152 ms
+ 9. Minecraft Client Initialization: 499 ms
+10. Loading Languages: 19 ms
+11. Constructing Mods: 3,667 ms
+12. Creating Registries: 479 ms
+13. Gathering Object Holders: 238 ms
+14. Injecting Capabilities: 435 ms
+15. Loading Registries: 6,486 ms
+16. Gather Modded Resource Packs: 32 ms
+17. Gather Tasks: 622 ms
+18. Setup GUI: 54 ms
+19. Dispatch Client Events: 596 ms
+20. Vanilla Client Setup: 113 ms
+21. Initializing Tasks: 1,852 ms
+22. Setup Loading Screen: 2 ms
+--------------------
+Reload Manager takes 58 seconds, loading 77 tasks
+Tasks are processed in parallel using multiple threads.
+<Task>: <main thread time> / <total time>
+- ModelManager: 282 ms / 42,010 ms
+- ClientModLoader: 1,264 ms / 15,374 ms
+- SoundManager: 67 ms / 2,685 ms
+- EntityRenderDispatcher: 2,142 ms / 2,142 ms
+- FontManager: 80 ms / 1,267 ms
+- ParticleEngine: 16 ms / 1,052 ms
+- BlockEntityRenderDispatcher: 610 ms / 610 ms
+- GameRenderer$1: 299 ms / 411 ms
+- LanguageManager: 193 ms / 193 ms
+- PaintingTextureManager: 1 ms / 128 ms
+- TextureManager: 0 ms / 112 ms
+- MobEffectTextureManager: 1 ms / 102 ms
+- yet_another_config_lib_v3: 423 ms / 6,765 ms
+- epicfight: 358 ms / 4,934 ms
+- fallingleaves: 71 ms / 1,794 ms
+- geckolib: 0 ms / 1,612 ms
+- fastconfigapi: 394 ms / 394 ms
+- blueprint: 0 ms / 198 ms
+- blockui: 0 ms / 182 ms
+- patchouli: 1 ms / 132 ms
+- sophisticatedstorage: 0 ms / 116 ms
+- codechickenlib: 1 ms / 115 ms
+Misc 51 Tasks: 459 ms / 1,144 ms
+Model Analyzer: 0 ms / 5,610 ms
+Main thread utilization: 11.45%
+Off thread utilization: 141.41%
+Idle time: 419 ms
+--------------------
+Mods use 11 seconds to initialize
+Mod init happens in parallel as part of Game Bootstrap, in stage <Constructing Mods> ~ <Loading Registries>
+Mods use 17 seconds to load
+Mod init takes 39.40 seconds CPU time. Thread utilization: 348.55%
+- framedblocks: 3,231 ms
+  | - Construct: 1,235 ms
+  | - FMLCommonSetupEvent: 1,304 ms
+  | - FMLClientSetupEvent: 276 ms
+  | - ModelEvent$ModifyBakingResult: 192 ms
+  | - RegisterEvent: 190 ms
+  | - Others: 31 ms
+- minecolonies: 2,973 ms
+  | - Construct: 626 ms
+  | - FMLCommonSetupEvent: 1,968 ms
+  | - RegisterEvent: 286 ms
+  | - Others: 92 ms
+- epicfight: 1,653 ms
+  | - Construct: 285 ms
+  | - EntityRenderersEvent$AddLayers: 646 ms
+  | - RegisterEvent: 355 ms
+  | - FMLClientSetupEvent: 239 ms
+  | - Others: 125 ms
+- blockrunner: 1,632 ms
+  | - ModelEvent$ModifyBakingResult: 1,102 ms
+  | - FMLConstructModEvent: 471 ms
+  | - Others: 54 ms
+- worldedit: 1,575 ms
+  | - FMLCommonSetupEvent: 1,515 ms
+  | - Others: 0 ms
+- slu: 1,483 ms
+  | - Construct: 1,242 ms
+  | - RegisterEvent: 149 ms
+  | - Others: 92 ms
+- library_of_exile: 1,479 ms
+  | - FMLCommonSetupEvent: 1,402 ms
+  | - Others: 1 ms
+- mmorpg: 1,465 ms
+  | - Construct: 1,306 ms
+  | - Others: 158 ms
+- dynamictrees: 1,057 ms
+  | - Construct: 379 ms
+  | - FMLCommonSetupEvent: 270 ms
+  | - RegisterEvent: 193 ms
+  | - NewRegistryEvent: 158 ms
+  | - Others: 55 ms
+- cataclysm: 1,020 ms
+  | - Construct: 358 ms
+  | - FMLClientSetupEvent: 422 ms
+  | - RegisterEvent: 194 ms
+  | - Others: 45 ms
+- framework: 904 ms
+- alexsmobs: 850 ms
+- mowziesmobs: 763 ms
+- chunkpregen: 743 ms
+- tetra: 732 ms
+- diagonalwalls: 706 ms
+- l2backpack: 682 ms
+- decorativerailings: 662 ms
+- sophisticatedstorage: 660 ms
+- nethers_exoticism: 655 ms
+- dynamictreesplus: 629 ms
+- dawnoftimebuilder: 615 ms
+- structure_gel: 587 ms
+- mushroomquest: 586 ms
+- floralench: 554 ms
+- xtraarrows: 532 ms
+- more_beautiful_torches: 488 ms
+- rechiseled: 479 ms
+- colored_water: 476 ms
+- wormhole: 456 ms
+- l2library: 452 ms
+- curios: 452 ms
+- vinery: 451 ms
+- sound_physics_remastered: 449 ms
+- fantasyfurniture: 447 ms
+- simplyswords: 446 ms
+- regions_unexplored: 433 ms
+- projectred_expansion: 410 ms
+- xaeroworldmap: 400 ms
+- jei: 371 ms
+- modulargolems: 356 ms
+- skilltree: 352 ms
+- farmingforblockheads: 348 ms
+- l2complements: 346 ms
+- travelersbackpack: 339 ms
+- yungsapi: 338 ms
+- comforts: 338 ms
+- l2artifacts: 318 ms
+- pamhc2foodextended: 312 ms
+- farmersdelight: 308 ms
+- cofh_core: 303 ms
+- extendedmushrooms: 288 ms
+- domum_ornamentum: 288 ms
+- extendedslabs: 285 ms
+- xaerominimap: 275 ms
+- structurize: 268 ms
+- distanthorizons: 266 ms
+- modernfix: 265 ms
+- wom: 265 ms
+- blueprint: 261 ms
+- simply_ceramics: 249 ms
+- farm_and_charm: 235 ms
+- projectred_core: 233 ms
+- minecolonies_compatibility: 220 ms
+- minecolonies_tweaks: 214 ms
+- cb_multipart: 213 ms
+- table_top_craft: 203 ms
+- endermanoverhaul: 202 ms
+- l2screentracker: 202 ms
+- cookingforblockheads: 190 ms
+- parcool: 179 ms
+- decorativecovers: 175 ms
+- codechickenlib: 174 ms
+- furniture: 173 ms
+- brewery: 173 ms
+- auto_crouch: 173 ms
+- orbs_of_crafting: 170 ms
+- candlelight: 168 ms
+- pamhc2trees: 167 ms
+- observable: 162 ms
+- entity_model_features: 158 ms
+- waystones: 153 ms
+- herbalbrews: 153 ms
+- moonlight: 151 ms
+- forge: 148 ms
+- projectred_integration: 147 ms
+- bakery: 145 ms
+- commonality: 142 ms
+- l2archery: 141 ms
+- jade: 138 ms
+- mutil: 138 ms
+- map_atlases: 138 ms
+- fantasy_armor: 137 ms
+- chimes: 131 ms
+- pamhc2crops: 131 ms
+- serene_shrubbery: 130 ms
+- easy_mob_farm: 129 ms
+- do_a_barrel_roll: 125 ms
+- citadel: 125 ms
+- findme: 117 ms
+- dyenamics: 113 ms
+- sereneseasons: 113 ms
+- decorativepavers: 112 ms
+- visualworkbench: 110 ms
+- more_music_discs: 110 ms
+- skinrestorer: 102 ms
+- architectury: 102 ms
+- doapi: 100 ms
+Misc 261 mods: 8,535 ms
+--------------------
+Model Load Time per Stage:
+- Reading jsons: 5,366 ms
+- Parsing jsons: 6,174 ms
+- Adding modded special models: 137 ms
+- Resolving hierarchy: 1,221 ms
+- Stitching Textures: 0 ms
+- Baking models: 4,751 ms
+- Mods altering models: 1,473 ms
+- Assigning models to block: 673 ms
+- Waiting for barrier: 1,070 ms
+- Uploading stitch: 282 ms
+Found 163 packs
+Loaded 51,087 model files with total size of 80,025 KB
+Baked 152774 models
+- [forge]slu_360.1.20.1.jar: 19,914 KB
+- letsdo-vinery-forge-1.4.28.jar: 10,311 KB
+- fantasyfurniture-1.20.1-9.0.0.jar: 5,548 KB
+- dyenamicsandfriends-1.20.1-1.9.0.jar: 3,500 KB
+- dotbe-1.5.7.jar: 2,785 KB
+- letsdo-candlelight-forge-2.0.2.jar: 2,539 KB
+- deco-storage-forge-1.20.1-2.0810.jar: 2,087 KB
+- extendedslabs-1.20.1-3.0.1.jar: 1,983 KB
+- minecolonies-1.20.1-1.1.726-snapshot.jar: 1,899 KB
+- domum_ornamentum-1.20.1-1.0.282-snapshot-universal.jar: 1,847 KB
+- vanilla: 1,714 KB
+- decorativeentities-1.20.1-1.1-Forge.jar: 1,690 KB
+- decorativerailings 1.20.1 - v1.1 - Forge.jar: 1,611 KB
+- refurbished_furniture-forge-1.20.1-1.0.9.jar: 1,606 KB
+- RegionsUnexploredForge-0.5.6+1.20.1.jar: 1,496 KB
+- beautify-2.0.2.jar: 1,346 KB
+- [1.20.1]+Simply+Ceramics+v1.0.0+(Forge).jar: 1,212 KB
+- letsdo-farm_and_charm-forge-1.0.4.jar: 1,157 KB
+- MushroomQuest-1.20.1-v4.1.2.jar: 1,114 KB
+- letsdo-furniture-forge-1.0.3.jar: 1,097 KB
+- more_beautiful_torches-merged-1.20.1-3.0.0.jar: 912 KB
+- nether-s-exoticism-1.20.1-1.2.9.jar: 864 KB
+- letsdo-brewery-forge-2.0.3.jar: 837 KB
+- tool-trims-mod-v2-2-1a.jar: 658 KB
+- letsdo-bakery-forge-2.0.3.jar: 648 KB
+- Floral Enchantment-1.20.1-1.4.3.jar: 543 KB
+- Mine_and_Slash-1.20.1-6.1.15.jar: 504 KB
+- DynamicTreesPHC2-1.20.1-1.3.1.jar: 484 KB
+- decorativecovers 1.20.1 - v1.2 - Forge.jar: 433 KB
+- rechiseled-1.1.6-forge-mc1.20.jar: 426 KB
+- SereneShrubbery-1.20.1-v2.0.0.jar: 400 KB
+- sophisticatedstorage-1.20.1-0.10.48.942.jar: 346 KB
+- skinned_lanterns-1.20.1-1.3.5.jar: 333 KB
+- cookingforblockheads-forge-1.20.1-16.0.9.jar: 284 KB
+- FramedBlocks-9.3.1.jar: 255 KB
+- Decorative Pavers-1.20.1-1.4-Forge.jar: 252 KB
+- table_top_craft-forge-1.20.1-6.1.2.jar: 236 KB
+- easy_mob_farm-forge-1.20.1-8.2.0.jar: 230 KB
+- Wallpapers-forge-1.20.1-1.5a-1.20.1.jar: 229 KB
+- connectedglass-1.1.12-forge-mc1.20.1.jar: 214 KB
+- epic_simply_swords_mod_1.20.1_(v19) (4).jar: 209 KB
+- FarmersDelight-1.20.1-1.2.5.jar: 208 KB
+- extendedmushrooms-1.20.1-4.1.3.2.jar: 206 KB
+- alexsmobs-1.22.9.jar: 190 KB
+- customizableelytra-forge-2.1.2+1.20.jar: 158 KB
+- dyenamicsandfriends:connectedglass_resources: 153 KB
+- decorativepaths 1.20.1 - v1.1 - Forge.jar: 151 KB
+- dyenamics-1.20.1-3.2.0.jar: 148 KB
+- Grass_Overhaul-Forge-23.10.10-MC1.20.1.jar: 138 KB
+- colorful-trims-1.6.jar: 136 KB
+- L_Enders_Cataclysm-2.17 - 1.20.1.jar: 132 KB
+- bushierflowers-0.0.3-1.20.1.jar: 127 KB
+- pamhc2crops-1.20-1.0.3.jar: 120 KB
+- travelersbackpack-forge-1.20.1-9.1.16.jar: 110 KB
+- pamhc2foodextended-1.20.4-1.0.1.jar: 105 KB
+- simplyswords-forge-1.56.0-1.20.1.jar: 104 KB
+- glow_sticks_1.20.1-6.0.0.jar: 100 KB
+- DynamicTreesPlus-1.20.1-1.2.0-BETA3.jar: 99 KB
+- l2artifacts-2.4.27.jar: 98 KB
+- Display v.1.1 Forge 1.20.1.jar: 90 KB
+- DynamicTrees-1.20.1-1.3.4.jar: 78 KB
+- pottery-1.0.2-forge-mc1.20.1.jar: 77 KB
+- pamhc2trees-1.20-1.0.2.jar: 74 KB
+- tetra-1.20.1-6.4.0.jar: 66 KB
+- waystones-forge-1.20-14.1.6.jar: 66 KB
+- letsdo-herbalbrews-forge-1.0.8.jar: 61 KB
+- modulargolems-2.4.42.jar: 51 KB
+Misc 96 packs: 1,193 KB
